@@ -3,7 +3,8 @@
 <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
   <span itemprop="streetAddress"><%= @conf.address %>. </span>
   <span itemprop="addressLocality"><%= @conf.city %></span>,
-  <span itemprop="addressRegion"> <%= @conf.state %></span>
+  <span itemprop="addressRegion"> <%= @conf.state %></span> |
+  <span itemprop="addressComplement"> <%= @conf.complement %></span>
 </p>
 
 <div id="map-canvas" class="location-area" data-address="<%= @conf.address %>, <%= @conf.city %> - <%= @conf.state %>"></div>

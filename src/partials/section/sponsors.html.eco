@@ -9,7 +9,7 @@
   </li>
 <% end %>
   <li class="sponsor-item">
-    <a class="sponsor-logo sponsor--link sponsor-call" href="#">
+    <a class="sponsor-logo sponsor--link sponsor-call" href="#contact" title="Seja um patrocinador">
     	<img src="<%= @getTheme() %>/img/your-logo.jpg" alt="your logo" class="photo">
     </a>
   </li>

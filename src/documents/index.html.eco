@@ -6,7 +6,7 @@ layout: default
   <!-- <%= section.toUpperCase() %> -->
 
   <section class="<%= section %>" id="<%= section %>">
-    <%- @partial("section/#{section}.html.eco", @) %>
+    <%- @partial("section/#{section}", @) %>
   </section>
 
   <!-- / <%= section.toUpperCase() %> -->
