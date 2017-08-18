@@ -2,6 +2,12 @@ module.exports = {
 
   prompts: false,
 
+  plugins: {
+    ghpages: {
+      deployBranch: 'master'
+    }
+  },
+
   // These are variables will be accessible via our templates
   templateData: {
 
