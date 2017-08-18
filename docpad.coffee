@@ -12,13 +12,14 @@ module.exports =
     conf:
       name: 'Vale dos Desenvolvedores'
       description: 'Valley of Developers Meetup Roadmap 2017'
-      date: '12 de Setembro a 11 de Novembro de 2017'
+      date: '12/Set, 25/Out e 11/Nov de 2017'
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale'
       address: 'ERS-239, 2755'
       city: 'Novo Hamburgo'
       state: 'RS'
+      complement: 'Auditório do prédio Multicolor'
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
@@ -47,7 +48,7 @@ module.exports =
       # 'schedule'
       'sponsors'
       'partners'
-      # 'contact'
+      'contact'
     ]
 
     # Labels which you can translate to other languages
@@ -94,6 +95,14 @@ module.exports =
       name: 'Universidade Feevale'
       logo: 'themes/yellow-swan/img/feevale.png'
       url: 'http://feevale.br'
+    ]
+
+    contacts: [
+      name: 'Paulo Diovani'
+      email: 'paulo@diovani.com'
+    ,
+      name: 'Rodrigo Boniatti'
+      email: 'boniatti.rodrigo@gmail.com'
     ]
 
     # Theme path
