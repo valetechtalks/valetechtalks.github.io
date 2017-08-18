@@ -1,5 +1,7 @@
 module.exports =
   prompts: false
+
+  # Plugin configuration
   plugins:
     ghpages:
       deployBranch: 'master'
@@ -41,9 +43,11 @@ module.exports =
     sections: [
       'about'
       'location'
-      'speakers'
-      'schedule'
+      # 'speakers'
+      # 'schedule'
+      'sponsors'
       'partners'
+      # 'contact'
     ]
 
     # Labels which you can translate to other languages
@@ -58,20 +62,20 @@ module.exports =
 
     # The entire schedule
     schedule: [
-    #   name: 'Check-in / Breakfast'
-    #   time: '9h00'
-    # ,
-    #   name: 'Linus Torvalds',
-    #   photo: 'themes/yellow-swan/img/speaker.jpg',
-    #   bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
-    #   company: 'Linux Foundation',
-    #   link:
-    #     href: 'http://twitter.com/linus',
-    #     text: '@linus'
-    #   presentation:
-    #     title: 'Digging into a Linux Kernel',
-    #     description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
-    #     time: '10h00'
+      name: 'Check-in / Breakfast'
+      time: '9h00'
+    ,
+      name: 'Linus Torvalds',
+      photo: 'themes/yellow-swan/img/speaker.jpg',
+      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
+      company: 'Linux Foundation',
+      link:
+        href: 'http://twitter.com/linus',
+        text: '@linus'
+      presentation:
+        title: 'Digging into a Linux Kernel',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
+        time: '10h00'
     ]
 
     # List of Sponsors
