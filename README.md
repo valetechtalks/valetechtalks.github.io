@@ -12,12 +12,12 @@ to know must be done.
 Fork the repository and open Pull Requests with your modification. You can also
 ask to join the Organization.
 
-## Dependencies
+### Dependencies
 
 - git
 - nodejs
 
-## Usage
+### Usage
 
 ```bash
 git clone https://github.com/valleyofdevelopers/valleyofdevelopers.github.io.git
@@ -26,7 +26,7 @@ npm install
 npm run watch
 ```
 
-## Deploy
+### Deploy
 
 ```bash
 npm run deploy
