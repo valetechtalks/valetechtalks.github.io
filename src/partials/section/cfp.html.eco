@@ -1,0 +1,5 @@
+<h2 class="section-title"><%= @labels.cfp %></h2>
+
+<p>
+  Nosso Call for Papers já está aberto, <a href="<%= @cfp.url %>" target="_blank">submeta sua talk aqui</a>.
+</p>
