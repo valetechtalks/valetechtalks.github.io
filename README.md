@@ -4,6 +4,14 @@ Based on [conf-boilerplate](https://github.com/valleyofdevelopers/conf-boilerpla
 
 Please, visit [valleyofdevelopers.github.io](http://valleyofdevelopers.github.io).
 
+## Contribute
+
+Check our [Meetup Organization project](https://github.com/orgs/valleyofdevelopers/projects/1)
+to know must be done.
+
+Fork the repository and open Pull Requests with your modification. You can also
+ask to join the Organization.
+
 ## Dependencies
 
 - git
