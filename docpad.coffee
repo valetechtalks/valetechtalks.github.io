@@ -36,7 +36,7 @@ module.exports =
     site:
       theme: 'yellow-swan'
       url: 'https://valleyofdevelopers.github.io/'
-      googleanalytics: ''
+      googleanalytics: 'UA-104968748-1'
 
     # Active sections on the website
     # to deactivate comment out with '//'
