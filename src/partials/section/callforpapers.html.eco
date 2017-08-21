@@ -1,0 +1,5 @@
+<h2 class="section-title"><%= @labels.callforpapers %></h2>
+
+<p>
+  Nosso Call for Papers já está aberto, <a href="<%= @callforpapers.url %>" target="_blank">submeta sua talk aqui</a>.
+</p>

@@ -46,7 +46,7 @@ module.exports =
       'location'
       # 'speakers'
       # 'schedule'
-      'cfp'
+      'callforpapers'
       'sponsors'
       'partners'
       'contact'
@@ -58,7 +58,7 @@ module.exports =
       location: 'Localização'
       speakers: 'Palestrantes'
       schedule: 'Programação'
-      cfp: 'Call for Papers'
+      callforpapers: 'Call for Papers'
       sponsors: 'Patrocinadores'
       partners: 'Apoio'
       contact: 'Contato'
@@ -81,7 +81,7 @@ module.exports =
         time: '10h00'
     ]
 
-    cfp:
+    callforpapers:
       url: 'https://goo.gl/forms/Jyeqyrd1dwi2w3752'
 
     # List of Sponsors
