@@ -81,6 +81,7 @@ module.exports =
         time: '10h00'
     ]
 
+    # Call for Papers info
     callforpapers:
       url: 'https://goo.gl/forms/Jyeqyrd1dwi2w3752'
 
