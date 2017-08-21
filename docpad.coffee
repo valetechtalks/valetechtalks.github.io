@@ -58,7 +58,7 @@ module.exports =
       location: 'Localização'
       speakers: 'Palestrantes'
       schedule: 'Programação'
-      callforpapers: 'Call for Papers'
+      callforpapers: 'Chamada para Trabalhos'
       sponsors: 'Patrocinadores'
       partners: 'Apoio'
       contact: 'Contato'
