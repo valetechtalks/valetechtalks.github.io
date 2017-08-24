@@ -47,6 +47,7 @@ module.exports =
       'location'
       # 'speakers'
       # 'schedule'
+      'callforpapers'
       'sponsors'
       'partners'
       'contact'
@@ -58,6 +59,7 @@ module.exports =
       location: 'Localização'
       speakers: 'Palestrantes'
       schedule: 'Programação'
+      callforpapers: 'Chamada para Trabalhos'
       sponsors: 'Patrocinadores'
       partners: 'Apoio'
       contact: 'Contato'
@@ -79,6 +81,10 @@ module.exports =
         description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
         time: '10h00'
     ]
+
+    # Call for Papers info
+    callforpapers:
+      url: 'https://goo.gl/forms/Jyeqyrd1dwi2w3752'
 
     # List of Sponsors
     sponsors: [
