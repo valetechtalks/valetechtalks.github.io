@@ -45,8 +45,8 @@ module.exports =
     sections: [
       'about'
       'location'
-      # 'speakers'
-      # 'schedule'
+      'speakers'
+      'schedule'
       'callforpapers'
       'sponsors'
       'partners'
@@ -66,20 +66,33 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: 'Check-in / Breakfast'
-      time: '9h00'
-    ,
-      name: 'Linus Torvalds',
-      photo: 'themes/yellow-swan/img/speaker.jpg',
-      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
-      company: 'Linux Foundation',
+      name: 'Eduardo Sganzerla',
+      email: 'esganzerla@gmail.com',
+      photo: 'themes/yellow-swan/img/eduardo-sganzerla.jpg',
+      bio: 'Usuário de desenvolvimento web desde aproximademente os 8 anos, quando teve acesso ao antigo HPG, em sábados após as 14h. Isso levou a aprender programar um pouco de Javascript e PHP 4. Conseguiu libertar do desenvolvimento por um tempo, se formou em Administração de Empresas, mas em 2015 teve uma recaida e está viciado em desenvolvimento front-end.',
+      # company: '',
       link:
-        href: 'http://twitter.com/linus',
-        text: '@linus'
+        href: 'http://twitter.com/esganzerla',
+        text: '@esganzerla'
       presentation:
-        title: 'Digging into a Linux Kernel',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
-        time: '10h00'
+        title: 'VueJS como uma droga de entrada',
+        description: 'Se você ainda não é dependente de nenhuma  biblioteca/framework vai conseguir experimentar o prazer de usa-los. Além do crescente destaque o VueJS está recebendo na comunidade ele é uma excelente porta de entrada. Vamos conversar sobre tudo o que é necessário para você construir sua primeira aplicação.',
+        date: 'Terça, 12 de Setembro de 2017',
+        time: '19:30'
+    ,
+      name: 'Gabriel Schmitt Kohlrausch',
+      email: 'gabriel@society.com.br',
+      photo: 'themes/yellow-swan/img/gabriel-schmitt-kohlrausch.jpg',
+      bio: 'Diretor Pesquisa & Desenvolvimento - Society Tecnologia da Informação LTDA; Arquiteto de software Society',
+      company: 'STI Society Tecnologia da Informação',
+      # link:
+      #   href: 'http://twitter.com/linus',
+      #   text: '@linus'
+      presentation:
+        title: 'Azure Service Bus: Aplicações escaláveis através de mensageria',
+        description: 'Apresentar como o uso de mensageria pode ajudar uma aplicação a escalar. Para isso vamos um pouco além do Service Bus do Azure e vamos  utilizar um framework (MassTransit) para auxiliar a comunicação com o Service Bus, bem como demonstrar como isso tudo se encaixa com DDD (Domain Driven Design).',
+        date: 'Terça, 12 de Setembro de 2017',
+        time: '20:10'
     ]
 
     # Call for Papers info
