@@ -86,7 +86,7 @@ module.exports =
       bio: 'Front-end developer há 6 anos, atualmente full-stack developer na Codeminer42. Amante de café e games online. Nas horas vagas gasto um tempo olhando o Awwwards.'
       company: 'Codeminer42',
       presentation:
-        title: 'Serverless Architeture: não significa "sem servidores"',
+        title: 'Serverless Architecture: não significa "sem servidores"',
         description: 'Uma breve introdução a essa forma tão badalada de computação "sem servidores", mas que tem sim servidores. Vamos descobrir o que isso significa e algumas características importantes para você começar a usar essa arquitetura em seus projetos, seja ele simples ou complexos.',
         date: 'Terça, 12 de Setembro de 2017',
         time: '20:10'
