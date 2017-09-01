@@ -80,6 +80,17 @@ module.exports =
         date: 'Terça, 12 de Setembro de 2017',
         time: '19:30'
     ,
+      name: 'Abner Soares Alves Junior',
+      email: 'abner.alves@codeminer42.com',
+      photo: 'http://gravatar.com/avatar/90df4e9ac665ed2e0306eb6dc776485a?s=150',
+      bio: 'Front-end developer há 6 anos, atualmente full-stack developer na Codeminer42. Amante de café e games online. Nas horas vagas gasto um tempo olhando o Awwwards.'
+      company: 'Codeminer42',
+      presentation:
+        title: 'Serverless Architecture: não significa "sem servidores"',
+        description: 'Uma breve introdução a essa forma tão badalada de computação "sem servidores", mas que tem sim servidores. Vamos descobrir o que isso significa e algumas características importantes para você começar a usar essa arquitetura em seus projetos, seja ele simples ou complexos.',
+        date: 'Terça, 12 de Setembro de 2017',
+        time: '20:10'
+    ,        
       name: 'Gabriel Schmitt Kohlrausch',
       email: 'gabriel@society.com.br',
       photo: 'themes/yellow-swan/img/gabriel-schmitt-kohlrausch.jpg',
@@ -92,7 +103,7 @@ module.exports =
         title: 'Azure Service Bus: Aplicações escaláveis através de mensageria',
         description: 'Apresentar como o uso de mensageria pode ajudar uma aplicação a escalar. Para isso vamos um pouco além do Service Bus do Azure e vamos  utilizar um framework (MassTransit) para auxiliar a comunicação com o Service Bus, bem como demonstrar como isso tudo se encaixa com DDD (Domain Driven Design).',
         date: 'Terça, 12 de Setembro de 2017',
-        time: '20:10'
+        time: '20:30'
     ]
 
     # Call for Papers info
