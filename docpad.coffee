@@ -124,7 +124,7 @@ module.exports =
       url: 'http://codeminer42.com'
     ,
       name: 'Universidade Feevale'
-      logo: 'themes/yellow-swan/img/feevale.png'
+      logo: 'themes/yellow-swan/img/feevale.jpg'
       url: 'http://feevale.br'
     ]
 
