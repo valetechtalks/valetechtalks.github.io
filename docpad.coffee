@@ -23,9 +23,9 @@ module.exports =
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    # callToAction:
-    #   text: 'Confirme sua presença'
-    #   link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/'
+    callToAction:
+      text: 'Confirme sua presença'
+      link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/243115078/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -90,7 +90,7 @@ module.exports =
         description: 'Uma breve introdução a essa forma tão badalada de computação "sem servidores", mas que tem sim servidores. Vamos descobrir o que isso significa e algumas características importantes para você começar a usar essa arquitetura em seus projetos, seja ele simples ou complexos.',
         date: 'Terça, 12 de Setembro de 2017',
         time: '20:10'
-    ,        
+    ,
       name: 'Gabriel Schmitt Kohlrausch',
       email: 'gabriel@society.com.br',
       photo: 'themes/yellow-swan/img/gabriel-schmitt-kohlrausch.jpg',
