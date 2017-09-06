@@ -3,9 +3,13 @@
   <ul class="wrapper">
     <% for section in @sections : %>
       <li class="nav-item">
-        <a href="#<%= section %>" target="_blank" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
+        <a href="/#<%= section %>" target="_self" title="<%= @labels[section] %>" class="nav-link"><%= @labels[section] %></a>
       </li>
     <% end %>
+
+    <li class="nav-item">
+      <a href="/codeofconduct.html" target="_self" title="Código de Conduta" class="nav-link">Código de Conduta</a>
+    </li>
   </ul>
 </nav>
 
