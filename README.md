@@ -6,7 +6,7 @@ Please, visit [valleyofdevelopers.github.io](http://valleyofdevelopers.github.io
 
 ## Contribute
 
-Check our [Meetup Organization project](https://github.com/orgs/valleyofdevelopers/projects/1)
+Check our [Issues page](https://github.com/valleyofdevelopers/valleyofdevelopers.github.io/issues)
 to know must be done.
 
 Fork the repository and open Pull Requests with your modification. You can also
