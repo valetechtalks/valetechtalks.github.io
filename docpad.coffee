@@ -112,9 +112,8 @@ module.exports =
 
     # List of Sponsors
     sponsors: [
-      # name: 'Eventick'
-      # logo: 'themes/yellow-swan/img/sponsor.png'
-      # url: 'http://eventick.com.br'
+      # name: 'Seja um patrocinador'
+      # logo: 'themes/yellow-swan/img/seja-um-patrocinador.jpg'
     ]
 
     # List of Partners
