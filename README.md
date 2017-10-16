@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/valleyofdevelopers/valleyofdevelopers.github.io.svg?branch=develop)](https://travis-ci.org/valleyofdevelopers/valleyofdevelopers.github.io)
+[![dependencies Status](https://david-dm.org/valleyofdevelopers/valleyofdevelopers.github.io/status.svg)](https://david-dm.org/valleyofdevelopers/valleyofdevelopers.github.io)
+
 # Valley of Developers Website
 
 Based on [conf-boilerplate](https://github.com/valleyofdevelopers/conf-boilerplate).
