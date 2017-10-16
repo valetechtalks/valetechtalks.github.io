@@ -1,0 +1,7 @@
+<h2 class="section-title"><%= @labels.archive %></h2>
+
+<ul class="archives">
+  <% for item in @getArchives() : %>
+    <li class="archive-item"><a href="/archive/<%= item %>"><%= item %></a></li>
+  <% end %>
+</ul>

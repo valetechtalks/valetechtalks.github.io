@@ -1,8 +1,14 @@
+fs = require('fs')
+
 module.exports =
   prompts: false
 
   # Plugin configuration
   plugins:
+    copy:
+      archive:
+        src: 'archive'
+        out: 'archive'
     ghpages:
       deployBranch: 'master'
 
@@ -23,9 +29,9 @@ module.exports =
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    callToAction:
-      text: 'Confirme sua presença'
-      link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/243115078/'
+    # callToAction:
+    #   text: 'Confirme sua presença'
+    #   link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/243115078/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -45,12 +51,13 @@ module.exports =
     sections: [
       'about'
       'location'
-      'speakers'
-      'schedule'
+      # 'speakers'
+      # 'schedule'
       'callforpapers'
       'sponsors'
       'partners'
       'contact'
+      'archive'
     ]
 
     # Labels which you can translate to other languages
@@ -63,48 +70,28 @@ module.exports =
       sponsors: 'Patrocinadores'
       partners: 'Apoio'
       contact: 'Contato'
+      archive: 'Meetups anteriores'
 
     # The entire schedule
     schedule: [
-      name: 'Eduardo Sganzerla',
-      email: 'esganzerla@gmail.com',
-      photo: 'themes/yellow-swan/img/eduardo-sganzerla.jpg',
-      bio: 'Usuário de desenvolvimento web desde aproximademente os 8 anos, quando teve acesso ao antigo HPG, em sábados após as 14h. Isso levou a aprender programar um pouco de Javascript e PHP 4. Conseguiu libertar do desenvolvimento por um tempo, se formou em Administração de Empresas, mas em 2015 teve uma recaida e está viciado em desenvolvimento front-end.',
-      # company: '',
+      name: 'Check-in / Breakfast'
+      date: 'Saturday morning'
+      time: '9h00'
+    ,
+      name: 'Linus Torvalds',
+      photo: 'themes/yellow-swan/img/speaker.jpg',
+      bio: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
+      company: 'Linux Foundation',
       link:
-        href: 'http://twitter.com/esganzerla',
-        text: '@esganzerla'
+        href: 'http://twitter.com/linus',
+        text: '@linus'
       presentation:
-        title: 'VueJS como uma droga de entrada',
-        description: 'Se você ainda não é dependente de nenhuma  biblioteca/framework vai conseguir experimentar o prazer de usa-los. Além do crescente destaque o VueJS está recebendo na comunidade ele é uma excelente porta de entrada. Vamos conversar sobre tudo o que é necessário para você construir sua primeira aplicação.',
-        date: 'Terça, 12 de Setembro de 2017',
-        time: '19:30'
-    ,
-      name: 'Abner Soares Alves Junior',
-      email: 'abner.alves@codeminer42.com',
-      photo: 'http://gravatar.com/avatar/90df4e9ac665ed2e0306eb6dc776485a?s=150',
-      bio: 'Front-end developer há 6 anos, atualmente full-stack developer na Codeminer42. Amante de café e games online. Nas horas vagas gasto um tempo olhando o Awwwards.'
-      company: 'Codeminer42',
-      presentation:
-        title: 'Serverless Architecture: não significa "sem servidores"',
-        description: 'Uma breve introdução a essa forma tão badalada de computação "sem servidores", mas que tem sim servidores. Vamos descobrir o que isso significa e algumas características importantes para você começar a usar essa arquitetura em seus projetos, seja ele simples ou complexos.',
-        date: 'Terça, 12 de Setembro de 2017',
-        time: '20:10'
-    ,
-      name: 'Gabriel Schmitt Kohlrausch',
-      email: 'gabriel@society.com.br',
-      photo: 'themes/yellow-swan/img/gabriel-schmitt-kohlrausch.jpg',
-      bio: 'Diretor Pesquisa & Desenvolvimento - Society Tecnologia da Informação LTDA; Arquiteto de software Society',
-      company: 'STI Society Tecnologia da Informação',
-      # link:
-      #   href: 'http://twitter.com/linus',
-      #   text: '@linus'
-      presentation:
-        title: 'Azure Service Bus: Aplicações escaláveis através de mensageria',
-        description: 'Apresentar como o uso de mensageria pode ajudar uma aplicação a escalar. Para isso vamos um pouco além do Service Bus do Azure e vamos  utilizar um framework (MassTransit) para auxiliar a comunicação com o Service Bus, bem como demonstrar como isso tudo se encaixa com DDD (Domain Driven Design).',
-        date: 'Terça, 12 de Setembro de 2017',
-        time: '20:30'
+        title: 'Digging into a Linux Kernel',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo',
+        date: 'Saturday Night'
+        time: '10h00'
     ]
+
 
     # Call for Papers info
     callforpapers:
@@ -119,11 +106,11 @@ module.exports =
     # List of Partners
     partners: [
       name: 'Codeminer 42'
-      logo: 'themes/yellow-swan/img/codeminer42.jpg'
+      logo: '/shared/img/codeminer42.jpg'
       url: 'http://codeminer42.com'
     ,
       name: 'Universidade Feevale'
-      logo: 'themes/yellow-swan/img/feevale.jpg'
+      logo: '/shared/img/feevale.jpg'
       url: 'http://feevale.br'
     ]
 
@@ -134,6 +121,11 @@ module.exports =
       name: 'Rodrigo Boniatti'
       email: 'boniatti.rodrigo@gmail.com'
     ]
+
+    # Archives
+    getArchives: ->
+      archives = fs.readdirSync('./src/archive')
+      archives.filter (d) -> /^[0-9]{4}[0-9]{2}[0-9]{2}$/.test(d)
 
     # Theme path
     getTheme: ->
