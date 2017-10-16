@@ -119,11 +119,11 @@ module.exports =
     # List of Partners
     partners: [
       name: 'Codeminer 42'
-      logo: 'themes/yellow-swan/img/codeminer42.jpg'
+      logo: '/shared/img/codeminer42.jpg'
       url: 'http://codeminer42.com'
     ,
       name: 'Universidade Feevale'
-      logo: 'themes/yellow-swan/img/feevale.jpg'
+      logo: '/shared/img/feevale.jpg'
       url: 'http://feevale.br'
     ]
 
