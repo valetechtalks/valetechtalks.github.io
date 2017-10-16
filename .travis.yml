@@ -1,5 +1,16 @@
 language: node_js
 node_js:
-  - 0.10
-before_script:
-  - npm run-script generate
+  - 8
+
+script:
+  - yarn check
+  - yarn run generate
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: out
+  target_branch: master
+  on:
+    branch: develop
