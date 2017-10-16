@@ -504,6 +504,14 @@ detect-file@^0.1.0:
   dependencies:
     fs-exists-sync "^0.1.0"
 
+docpad-plugin-copy@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/docpad-plugin-copy/-/docpad-plugin-copy-2.1.3.tgz#8788cc1777632a82beedf11fd188e77ba3254835"
+  dependencies:
+    eachr "^2.0.2"
+    safeps "^2.2.12"
+    taskgroup "^4.0.5"
+
 docpad-plugin-eco@^2.1.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/docpad-plugin-eco/-/docpad-plugin-eco-2.2.1.tgz#3e054b6c95af3abe4c4a1111d2dbfa0bbc55d414"
@@ -2007,7 +2015,7 @@ safe-buffer@^5.0.1, safe-buffer@^5.1.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-safefs@^3.1.2, safefs@^3.1.3:
+safefs@^3.1.0, safefs@^3.1.2, safefs@^3.1.3:
   version "3.2.2"
   resolved "https://registry.yarnpkg.com/safefs/-/safefs-3.2.2.tgz#8170c1444d7038e08caea05a374fae2fa349e15c"
   dependencies:
@@ -2019,6 +2027,15 @@ safefs@^4.0.0, safefs@^4.1.0:
   dependencies:
     editions "^1.1.1"
     graceful-fs "^4.1.4"
+
+safeps@^2.2.12:
+  version "2.2.13"
+  resolved "https://registry.yarnpkg.com/safeps/-/safeps-2.2.13.tgz#2b17c06d1fb573c65b16b7996fef65acc353a4bd"
+  dependencies:
+    extract-opts "^2.2.0"
+    safefs "^3.1.0"
+    taskgroup "^4.2.0"
+    typechecker "^2.0.8"
 
 safeps@^5.1.0:
   version "5.1.0"
@@ -2237,7 +2254,7 @@ supports-color@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/supports-color/-/supports-color-2.0.0.tgz#535d045ce6b6363fa40117084629995e9df324c7"
 
-taskgroup@^4.0.0, taskgroup@^4.0.5, taskgroup@^4.2.1, taskgroup@^4.3.0:
+taskgroup@^4.0.0, taskgroup@^4.0.5, taskgroup@^4.2.0, taskgroup@^4.2.1, taskgroup@^4.3.0:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/taskgroup/-/taskgroup-4.3.1.tgz#7de193febd768273c457730497024d512c27915a"
   dependencies:

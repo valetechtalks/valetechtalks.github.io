@@ -1,8 +1,14 @@
+fs = require('fs')
+
 module.exports =
   prompts: false
 
   # Plugin configuration
   plugins:
+    copy:
+      archive:
+        src: 'archive'
+        out: 'archive'
     ghpages:
       deployBranch: 'master'
 
@@ -47,10 +53,11 @@ module.exports =
       'location'
       'speakers'
       'schedule'
-      'callforpapers'
+      # 'callforpapers'
       'sponsors'
       'partners'
       'contact'
+      'archive'
     ]
 
     # Labels which you can translate to other languages
@@ -63,6 +70,7 @@ module.exports =
       sponsors: 'Patrocinadores'
       partners: 'Apoio'
       contact: 'Contato'
+      archive: 'Meetups anteriores'
 
     # The entire schedule
     schedule: [
@@ -134,6 +142,11 @@ module.exports =
       name: 'Rodrigo Boniatti'
       email: 'boniatti.rodrigo@gmail.com'
     ]
+
+    # Archives
+    getArchives: ->
+      archives = fs.readdirSync('./src/archive')
+      archives.filter (d) -> /^[0-9]{4}[0-9]{2}[0-9]{2}$/.test(d)
 
     # Theme path
     getTheme: ->
