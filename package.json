@@ -1,5 +1,9 @@
 {
   "private": true,
+  "engine": {
+    "node": "^8.0.0",
+    "npm": ">=5.0.0"
+  },
   "scripts": {
     "deploy": "docpad deploy-ghpages --env static",
     "generate": "docpad generate --env static",
