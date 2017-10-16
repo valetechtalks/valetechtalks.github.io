@@ -19,18 +19,23 @@ ask to join the Organization.
 
 - git
 - nodejs
+- yarn
 
 ### Usage
 
 ```bash
 git clone https://github.com/valleyofdevelopers/valleyofdevelopers.github.io.git
 cd valleyofdevelopers.github.io
-npm install
-npm run watch
+yarn install
+yarn run watch
 ```
 
 ### Deploy
 
+Done automatically on any merge to `develop` branch.
+
+Otherwise, if needed:
+
 ```bash
-npm run deploy
+yarn run deploy
 ```
