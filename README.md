@@ -39,3 +39,14 @@ Otherwise, if needed:
 ```bash
 yarn run deploy
 ```
+
+### Archive Meetups
+
+To arquive old Meetup pages, do the followying:
+
+```bash
+yarn run generate         # Make sure to generate the meetup page to be archive
+yarn run archive YYYYMMDD # Archive it under /archive/YYYYMMDD
+```
+
+Where `YYYYMMDD` is the day where the meetup was realized.
