@@ -18,7 +18,7 @@ getDate = ->
     throw new Error('''
     You must provide an archive date in the format YYYYMMDD.
     Example:
-      yarn run archive 20170923
+      yarn archive 20170923
     ''')
 
   date

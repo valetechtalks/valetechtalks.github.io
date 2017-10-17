@@ -27,7 +27,7 @@ ask to join the Organization.
 git clone https://github.com/valleyofdevelopers/valleyofdevelopers.github.io.git
 cd valleyofdevelopers.github.io
 yarn install
-yarn run watch
+yarn watch
 ```
 
 ### Deploy
@@ -37,7 +37,7 @@ Done automatically on any merge to `develop` branch.
 Otherwise, if needed:
 
 ```bash
-yarn run deploy
+yarn deploy
 ```
 
 ### Archive Meetups
@@ -45,8 +45,8 @@ yarn run deploy
 To arquive old Meetup pages, do the followying:
 
 ```bash
-yarn run generate         # Make sure to generate the meetup page to be archive
-yarn run archive YYYYMMDD # Archive it under /archive/YYYYMMDD
+yarn generate         # Make sure to generate the meetup page to be archive
+yarn archive YYYYMMDD # Archive it under /archive/YYYYMMDD
 ```
 
 Where `YYYYMMDD` is the day where the meetup was realized.
