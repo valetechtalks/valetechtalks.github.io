@@ -25,7 +25,7 @@
             <%= slot.presentation.title %>
               <span class="speakers-company"><%= slot.company %></span>
             </td>
-            <td class="schedule-description"><%= slot.presentation.description %></td>
+            <td class="schedule-description"><%- slot.presentation.description %></td>
           </tr>
         <% else: %>
           <tr class="schedule-other">
