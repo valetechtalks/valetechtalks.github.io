@@ -12,7 +12,7 @@ module.exports =
     conf:
       name: 'Vale dos Desenvolvedores'
       description: 'Valley of Developers Meetup Roadmap 2017'
-      date: '25/Out e 11/Nov de 2017'
+      date: '25/Out e 18/Nov de 2017'
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale'
