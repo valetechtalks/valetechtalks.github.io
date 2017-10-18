@@ -1,21 +1,7 @@
 <h2 class="section-title"><%= @labels.callforpapers %></h2>
 
 <p>
-  Nosso Call for Papers já está aberto. Serão três eventos em datas distintas:
-</p>
-
-<h4>
-  12 de Setembro das 19:30 às 22:00
-</h4>
-<p>
-  Propostas aceitas até dia 05 de Setembro
-</p>
-
-<h4>
-  25 de Outubro das 19:30 às 22:00
-</h4>
-<p>
-  Propostas aceitas até dia 04 de Outubro
+  Nosso Call for Papers está aberto.
 </p>
 
 <h4>
@@ -26,7 +12,7 @@
 </p>
 
 <p>
-  Você pode enviar diferentes palestras para um ou mais dias. Iremos dar preferência para a maior diversidade de palestrantes e assuntos durante a seleção.
+  Iremos dar preferência para a maior diversidade de palestrantes e assuntos durante a seleção.
 </p>
 
 <p>

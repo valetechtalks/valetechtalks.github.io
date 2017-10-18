@@ -12,7 +12,7 @@ module.exports =
     conf:
       name: 'Vale dos Desenvolvedores'
       description: 'Valley of Developers Meetup Roadmap 2017'
-      date: '12/Set, 25/Out e 11/Nov de 2017'
+      date: '25/Out e 11/Nov de 2017'
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale'
@@ -25,7 +25,7 @@ module.exports =
     # If you don't want this, just remove the callToAction property.
     callToAction:
       text: 'Confirme sua presença'
-      link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/243115078/'
+      link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/244315151/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -66,43 +66,34 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: 'Eduardo Sganzerla',
-      email: 'esganzerla@gmail.com',
-      photo: 'themes/yellow-swan/img/eduardo-sganzerla.jpg',
-      bio: 'Usuário de desenvolvimento web desde aproximademente os 8 anos, quando teve acesso ao antigo HPG, em sábados após as 14h. Isso levou a aprender programar um pouco de Javascript e PHP 4. Conseguiu libertar do desenvolvimento por um tempo, se formou em Administração de Empresas, mas em 2015 teve uma recaida e está viciado em desenvolvimento front-end.',
-      # company: '',
+      name: 'Rafael Peixe',
+      email: 'rafaelpeixe@gmail.com',
+      photo: 'https://s.gravatar.com/avatar/da6fb493cecc5765c18254b4331c5d8f?s=240',
+      bio: 'Analista de Sistemas na Meta e Formando em Ciência da Computação na Feevale',
+      company: 'Meta',
       link:
-        href: 'http://twitter.com/esganzerla',
-        text: '@esganzerla'
+        href: '',
+        text: ''
       presentation:
-        title: 'VueJS como uma droga de entrada',
-        description: 'Se você ainda não é dependente de nenhuma  biblioteca/framework vai conseguir experimentar o prazer de usa-los. Além do crescente destaque o VueJS está recebendo na comunidade ele é uma excelente porta de entrada. Vamos conversar sobre tudo o que é necessário para você construir sua primeira aplicação.',
-        date: 'Terça, 12 de Setembro de 2017',
+        title: 'Introdução ao Scrum',
+        description: 'Apresentar considerações sobre projetos, o framework do Scrum e algumas técnicas ágeis utilizadas.',
+        date: 'Quarta, 25 de outubro de 2017',
         time: '19:30'
     ,
-      name: 'Abner Soares Alves Junior',
-      email: 'abner.alves@codeminer42.com',
-      photo: 'http://gravatar.com/avatar/90df4e9ac665ed2e0306eb6dc776485a?s=150',
-      bio: 'Front-end developer há 6 anos, atualmente full-stack developer na Codeminer42. Amante de café e games online. Nas horas vagas gasto um tempo olhando o Awwwards.'
-      company: 'Codeminer42',
+      name: 'Vinícius Almeida',
+      email: 'vinialm88@gmail.com',
+      photo: 'themes/yellow-swan/img/vinicius-almeida.jpg',
+      bio: 'Consultor de desenvolvimento na 87labs com experiência em consultoria programando em Ruby, Node e tecnologias front-end. Hoje sente-se velho cada vez que aparece uma ferramenta nova resolvendo - de forma diferente - velhos problemas já resolvidos mas se esforça em defender isso sem cair na apologia à obsolescência tecnológica. Membro importante na cadeia de software livre na condição de usuário.'
+      company: '87labs',
+      link:
+        href: 'https://twitter.com/vimoding',
+        text: '@vimoding'
       presentation:
-        title: 'Serverless Architecture: não significa "sem servidores"',
-        description: 'Uma breve introdução a essa forma tão badalada de computação "sem servidores", mas que tem sim servidores. Vamos descobrir o que isso significa e algumas características importantes para você começar a usar essa arquitetura em seus projetos, seja ele simples ou complexos.',
-        date: 'Terça, 12 de Setembro de 2017',
-        time: '20:10'
-    ,
-      name: 'Gabriel Schmitt Kohlrausch',
-      email: 'gabriel@society.com.br',
-      photo: 'themes/yellow-swan/img/gabriel-schmitt-kohlrausch.jpg',
-      bio: 'Diretor Pesquisa & Desenvolvimento - Society Tecnologia da Informação LTDA; Arquiteto de software Society',
-      company: 'STI Society Tecnologia da Informação',
-      # link:
-      #   href: 'http://twitter.com/linus',
-      #   text: '@linus'
-      presentation:
-        title: 'Azure Service Bus: Aplicações escaláveis através de mensageria',
-        description: 'Apresentar como o uso de mensageria pode ajudar uma aplicação a escalar. Para isso vamos um pouco além do Service Bus do Azure e vamos  utilizar um framework (MassTransit) para auxiliar a comunicação com o Service Bus, bem como demonstrar como isso tudo se encaixa com DDD (Domain Driven Design).',
-        date: 'Terça, 12 de Setembro de 2017',
+        title: 'Don\'t blame your tools',
+        description: "Falaremos sobre como a volatilidade da atenção da comunidade front-end afeta a indústria, dieta forçada para trolls e como escrever código razoável* com tooling de primeira (webpack, nesse caso) e ferramentas que não tem mais espaço no <i>buzz</i> mas que sabemos que continuarão presentes no nosso dia-a-dia**.<br>
+        <br>* não se precipite, definiremos isso durante a conversa
+        <br>** vai ter jQuery sim",
+        date: 'Quarta, 25 de outubro de 2017',
         time: '20:30'
     ]
 
