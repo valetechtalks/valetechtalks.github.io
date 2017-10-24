@@ -1,0 +1,41 @@
+---
+layout: home
+---
+
+<h1>{{ site.title }}</h1>
+
+<h2 id="sobre">Sobre</h2>
+
+<p>{{ site.description }}</p>
+<a href="{{ site.call_for_papers_link }}">{{ site.call_for_papers_title }}</a>
+
+<h2 id="agenda">Agenda</h2>
+
+<ul>
+  {% for event in site.events %}
+    <li>{{ event.date | date: "%-d/%m" }} - {{ event.date | date: "%Y" }} - {{ event.title }} - {{ event.venue_description }}</li>
+  {% endfor %}
+</ul>
+
+<h2 id="apoiadores">Apoiadores</h2>
+
+<ul>
+  {% for sponsor in site.sponsors %}
+    <li>{{ sponsor.name }}</li>
+  {% endfor %}
+</ul>
+
+<p><small>Todos que já contribuíram com nosso projeto</small></p>
+
+<h2 id="chamada-para-trabalhos">{{ site.call_for_papers_title }}</h2>
+
+<p>{{ site.call_for_papers_description }}</p>
+<a href="{{ site.call_for_papers_link }}">{{ site.call_for_papers_title }}</a>
+
+<h2 id="contato">Contato</h2>
+
+<p>Para mais informações, propostas de palestras, patrocínio, etc. Entre em contato enviando e-mail para:</p>
+
+<p>Você também pode falar conosco no Slack Developers Brasil no <a href="https://developers-brasil.slack.com/messages/C6QS5JK9U/">canal <code>#valedosdevs</code></a> (se você ainda não tem acesso ao canal pode solicitar acessando <a href="http://developers-brasil.herokuapp.com/">este link</a>).</p>
+
+{% include footer.html %}

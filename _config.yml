@@ -1,0 +1,8 @@
+title: 'Valley of developers'
+description: 'O Vale dos Desenvolvedores é uma iniciativa independente de Desenvolvedores de Software do Vale dos Sinos para realizar Meetups e outros eventos para promover a troca de conhecimento e Networking entre quaisquer envolvidos ou interessados em tecnologia.<br><br>Nossos Meetups incluem palestras diversas de assuntos como Linguagens de Programação, Frameworks, Carreira, etc.'
+call_for_papers_title: 'Chamada para trabalhos'
+call_for_papers_link: 'https://goo.gl/forms/Jyeqyrd1dwi2w3752'
+call_for_papers_description: 'A chamada para trabalhos é um espaço sempre aberto. Você pode enviar diferentes palestras para um ou mais dias. Iremos dar preferência para a maior diversidade de palestrantes e assuntos durante a seleção.'
+collections:
+  - events
+  - sponsors
