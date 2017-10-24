@@ -1,0 +1,160 @@
+/* reset do css */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+p {
+  font-size: 13px;
+}
+/* ---------------------------------------------------------------------------- */
+
+
+/* mixins */
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+/* ---------------------------------------------------------------------------- */
+
+
+/* header */
+.header {
+  background-color: rgb(0, 110, 110);
+}
+
+.header__logo {
+  height: 180px;
+  color: rgb(245, 245, 245);
+  text-indent: -9999px;
+}
+
+.header__navbar-container {
+  background-color: rgb(0, 65, 65);
+}
+
+.navbar {
+
+}
+
+.navbar__list {
+  padding: 15px 0;
+  display: flex;
+}
+
+.navbar__list__item {
+  padding-right: 25px;
+  color: rgb(245, 245, 245);
+}
+
+.navbar__list__item.--first {
+  list-style-type: none;
+}
+
+.navbar__list__item__sandwich{
+  display: none;
+}
+
+.sandwich {
+  width: 25px;
+  cursor: pointer;
+}
+
+.sandwich__bar {
+  border-top: 3px solid rgb(245, 245, 245);
+  margin-bottom: 5px;
+}
+
+.sandwich__bar--last {
+  border-top: 3px solid rgb(245, 245, 245);
+  margin-bottom: 0;
+}
+
+@media(max-width: 825px) {
+  .header__logo {
+    height: 80px;
+  }
+
+  .navbar {
+    text-align: right;
+  }
+
+  .navbar__list__item {
+    display: none;
+  }
+
+  .navbar__list__item__sandwich{
+    display: block;
+  }
+}
+/* ---------------------------------------------------------------------------- */
+
+
+/* section */
+.section-highlight {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: rgb(240, 240, 240);
+  margin-top: 20px;
+  /*padding: 0 20px;*/
+}
+
+.section-highlight__column {
+  width: 48%;
+}
+
+.section {
+  margin: 20px 0;
+}
+
+.section__title {
+  color: rgb(0, 65, 65);
+  padding-bottom: 25px;
+}
+
+.section__paragraph {
+  padding-bottom: 10px;
+}
+
+@media(max-width: 900px) {
+  .section-highlight__column {
+    width: 95%;
+  }
+}
+/* ---------------------------------------------------------------------------- */
+
+
+/* section-button */
+.section-button {
+  padding: 15px 20px;
+  background-color: rgb(0, 110, 110);
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: rgb(245, 245, 245);
+  transition: 0.1s ease-in-out;
+}
+
+.section-button:hover {
+  background-color: rgb(0, 65, 65);
+}
+
+.section-button:focus {
+  outline: none;
+  box-shadow: 0 0 2px 1px rgba(35, 35, 35, 0.5);
+}
+/* ---------------------------------------------------------------------------- */
+
+
+/* section-agenda */
+
+
+/* ---------------------------------------------------------------------------- */

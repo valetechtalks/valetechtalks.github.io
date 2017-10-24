@@ -2,40 +2,60 @@
 layout: home
 ---
 
-<h1>{{ site.title }}</h1>
+{% include header.html %}
 
-<h2 id="sobre">Sobre</h2>
+<main>
 
-<p>{{ site.description }}</p>
-<a href="{{ site.call_for_papers_link }}">{{ site.call_for_papers_title }}</a>
+  <div class="container">
 
-<h2 id="agenda">Agenda</h2>
+    <section class="section-highlight">
+      <div class="section-highlight__column">
+        <section class="section">
+          <h2 id="sobre" class="section__title">Sobre</h2>
+          <p class="section__paragraph">{{ site.description }}</p>
+          <a href="{{ site.call_for_papers_link }}" class="section-button">{{ site.call_for_papers_title }}</a>
+        </section>
+      </div>
 
-<ul>
-  {% for event in site.events %}
-    <li>{{ event.date | date: "%-d/%m" }} - {{ event.date | date: "%Y" }} - {{ event.title }} - {{ event.venue_description }}</li>
-  {% endfor %}
-</ul>
+      <div class="section-highlight__column">
+        <section class="section">
+          <h2 id="agenda" class="section__title">Agenda</h2>
+          <ul>
+            {% for event in site.events %}
+              <li>{{ event.date | date: "%-d/%m" }} - {{ event.date | date: "%Y" }} - {{ event.title }} - {{ event.venue_description }}</li>
+            {% endfor %}
+          </ul>
+        </section>
+      </div>
 
-<h2 id="apoiadores">Apoiadores</h2>
+    </section>
 
-<ul>
-  {% for sponsor in site.sponsors %}
-    <li>{{ sponsor.name }}</li>
-  {% endfor %}
-</ul>
+    <section class="section">
+      <h2 id="apoiadores" class="section__title">Apoiadores</h2>
+      <ul>
+        {% for sponsor in site.sponsors %}
+          <li>{{ sponsor.name }}</li>
+        {% endfor %}
+      </ul>
 
-<p><small>Todos que já contribuíram com nosso projeto</small></p>
+      <p class="section__paragraph"><small>Todos que já contribuíram com nosso projeto</small></p>
+    </section>
 
-<h2 id="chamada-para-trabalhos">{{ site.call_for_papers_title }}</h2>
+    <section class="section">
+      <h2 id="chamada-para-trabalhos" class="section__title">{{ site.call_for_papers_title }}</h2>
+      <p class="section__paragraph">{{ site.call_for_papers_description }}</p>
+      <a href="{{ site.call_for_papers_link }}">{{ site.call_for_papers_title }}</a>
+    </section>
 
-<p>{{ site.call_for_papers_description }}</p>
-<a href="{{ site.call_for_papers_link }}">{{ site.call_for_papers_title }}</a>
+    <section class="section">
+      <h2 id="contato" class="section__title">Contato</h2>
+      <p class="section__paragraph">Para mais informações, propostas de palestras, patrocínio, etc. Entre em contato enviando e-mail para:</p>
 
-<h2 id="contato">Contato</h2>
+      <p class="section__paragraph">Você também pode falar conosco no Slack Developers Brasil no <a href="https://developers-brasil.slack.com/messages/C6QS5JK9U/">canal <code>#valedosdevs</code></a> (se você ainda não tem acesso ao canal pode solicitar acessando <a href="http://developers-brasil.herokuapp.com/">este link</a>).</p>
+    </section>
 
-<p>Para mais informações, propostas de palestras, patrocínio, etc. Entre em contato enviando e-mail para:</p>
+  </div>
 
-<p>Você também pode falar conosco no Slack Developers Brasil no <a href="https://developers-brasil.slack.com/messages/C6QS5JK9U/">canal <code>#valedosdevs</code></a> (se você ainda não tem acesso ao canal pode solicitar acessando <a href="http://developers-brasil.herokuapp.com/">este link</a>).</p>
+</main>
 
 {% include footer.html %}
