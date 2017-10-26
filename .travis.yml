@@ -1,10 +1,9 @@
-language: node_js
-node_js:
-  - 8
+language: ruby
+rvm:
+  - 2.3.3
 
 script:
-  - yarn check
-  - yarn run generate
+  - ./cibuild
 
 deploy:
   provider: pages
