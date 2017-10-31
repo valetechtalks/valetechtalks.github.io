@@ -12,20 +12,20 @@ module.exports =
     conf:
       name: 'Vale dos Desenvolvedores'
       description: 'Valley of Developers Meetup Roadmap 2017'
-      date: '25/Out e 18/Nov de 2017'
+      date: '18/Nov de 2017'
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale'
       address: 'ERS-239, 2755'
       city: 'Novo Hamburgo'
       state: 'RS'
-      complement: 'Auditório do prédio Multicolor'
+      complement: 'Auditório do prédio Azul'
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    callToAction:
-      text: 'Confirme sua presença'
-      link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/244315151/'
+    # callToAction:
+      # text: 'Confirme sua presença'
+      # link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/244315151/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -45,7 +45,7 @@ module.exports =
     sections: [
       'about'
       'location'
-      'speakers'
+      # 'speakers'
       'schedule'
       'callforpapers'
       'sponsors'
@@ -66,35 +66,65 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: 'Rafael Peixe',
-      email: 'rafaelpeixe@gmail.com',
-      photo: 'https://s.gravatar.com/avatar/da6fb493cecc5765c18254b4331c5d8f?s=240',
-      bio: 'Analista de Sistemas na Meta e Formando em Ciência da Computação na Feevale',
-      company: 'Meta',
+      name: '',
+      email: '',
+      photo: '',
+      bio: '',
+      company: '',
       link:
         href: '',
         text: ''
       presentation:
-        title: 'Introdução ao Scrum',
-        description: 'Apresentar considerações sobre projetos, o framework do Scrum e algumas técnicas ágeis utilizadas.',
-        date: 'Quarta, 25 de outubro de 2017',
-        time: '19:30'
+        title: 'Palestra 1',
+        description: 'À Confirmar',
+        date: 'Sábado, 18 de Novembro de 2017',
+        time: '13:00'
     ,
-      name: 'Vinícius Almeida',
-      email: 'vinialm88@gmail.com',
-      photo: 'themes/yellow-swan/img/vinicius-almeida.jpg',
-      bio: 'Consultor de desenvolvimento na 87labs com experiência em consultoria programando em Ruby, Node e tecnologias front-end. Hoje sente-se velho cada vez que aparece uma ferramenta nova resolvendo - de forma diferente - velhos problemas já resolvidos mas se esforça em defender isso sem cair na apologia à obsolescência tecnológica. Membro importante na cadeia de software livre na condição de usuário.'
-      company: '87labs',
+      name: '',
+      email: '',
+      photo: '',
+      bio: '',
+      company: '',
       link:
-        href: 'https://twitter.com/vimoding',
-        text: '@vimoding'
+        href: '',
+        text: ''
       presentation:
-        title: 'Don\'t blame your tools',
-        description: "Falaremos sobre como a volatilidade da atenção da comunidade front-end afeta a indústria, dieta forçada para trolls e como escrever código razoável* com tooling de primeira (webpack, nesse caso) e ferramentas que não tem mais espaço no <i>buzz</i> mas que sabemos que continuarão presentes no nosso dia-a-dia**.<br>
-        <br>* não se precipite, definiremos isso durante a conversa
-        <br>** vai ter jQuery sim",
-        date: 'Quarta, 25 de outubro de 2017',
-        time: '20:30'
+        title: 'Palestra 2',
+        description: 'À Confirmar',
+        date: 'Sábado, 18 de Novembro de 2017',
+        time: '14:00'
+    ,
+      name: 'Coffee-Break',
+      date: 'Sábado, 18 de Novembro de 2017',
+      time: '15:00'
+    ,
+      name: '',
+      email: '',
+      photo: '',
+      bio: '',
+      company: '',
+      link:
+        href: '',
+        text: ''
+      presentation:
+        title: 'Palestra 3',
+        description: 'À Confirmar',
+        date: 'Sábado, 18 de Novembro de 2017',
+        time: '15:15'
+    ,
+      name: '',
+      email: '',
+      photo: '',
+      bio: '',
+      company: '',
+      link:
+        href: '',
+        text: ''
+      presentation:
+        title: 'Palestra 4',
+        description: 'À Confirmar',
+        date: 'Sábado, 18 de Novembro de 2017',
+        time: '16:15'
     ]
 
     # Call for Papers info
