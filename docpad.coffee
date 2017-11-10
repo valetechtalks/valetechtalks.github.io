@@ -45,9 +45,9 @@ module.exports =
     sections: [
       'about'
       'location'
-      # 'speakers'
+      'speakers'
       'schedule'
-      'callforpapers'
+      # 'callforpapers'
       'sponsors'
       'partners'
       'contact'
@@ -66,31 +66,31 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: '',
-      email: '',
-      photo: '',
-      bio: '',
-      company: '',
+      name: 'Palmer Oliveira',
+      email: 'expalmer@gmail.com',
+      photo: 'themes/yellow-swan/img/palmer.jpg',
+      bio: 'Palmer é um Web Developer entusiasta Javascript que gosta de tentar entender como as coisas funcionam.',
+      company: 'Renove3',
       link:
-        href: '',
-        text: ''
+        href: 'https://expalmer.github.io',
+        text: 'Website'
       presentation:
-        title: 'Palestra 1',
-        description: 'À Confirmar',
+        title: 'Conhecendo o Event Loop no Node',
+        description: 'Quero mostrar de forma lúdica, como funciona a implementação do Event Loop no NodeJs/Browser',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '13:00'
     ,
-      name: '',
-      email: '',
-      photo: '',
-      bio: '',
-      company: '',
+      name: 'Thiago Alves Luiz',
+      email: 'taltk9@gmail.com',
+      photo: 'themes/yellow-swan/img/thiago.jpg',
+      bio: 'Thiago is a front end and JavaScript developer, living in Novo Hamburgo, in Southern Brazil. He started web development over ten years ago building websites for publicity agencies. After this he spent a time developing ERP products at web plataform. He currently specializes in JavaScript applications (specially React applications) and is a Front End Developer at Codeminer 42 in Novo Hamburgo.',
+      company: 'Codeminer 42',
       link:
-        href: '',
-        text: ''
+        href: 'https://www.linkedin.com/in/thiagoalvesluiz/',
+        text: 'Linkedin'
       presentation:
-        title: 'Palestra 2',
-        description: 'À Confirmar',
+        title: 'How to enjoy WebVR right now',
+        description: 'WebVR is an open standard that makes it possible to experience VR in your browser. There are some limits to use this technology in browsers but it is already possible. Lets see how to start VR studies, produce content to use within, some possibilities that it brings and how to enjoy it right now.',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '14:00'
     ,
@@ -98,17 +98,17 @@ module.exports =
       date: 'Sábado, 18 de Novembro de 2017',
       time: '15:00'
     ,
-      name: '',
-      email: '',
+      name: 'Rafael Serpa Nery',
+      email: 'rafael@nery.info',
       photo: '',
-      bio: '',
+      bio: 'Coordenador de Desenvolvimento de Sistemas na Empresa Libre Soluções de Governo. Envolvido com desenvolvimento de Software desde 2004 com PHP/JS/PostgreSQL. ',
       company: '',
       link:
         href: '',
         text: ''
       presentation:
-        title: 'Palestra 3',
-        description: 'À Confirmar',
+        title: 'Gerenciamento de Dependências com Composer',
+        description: 'Talk fala sobre a história e utilização do gerenciador de dependências do PHP, o Composer.',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '15:15'
     ,
@@ -125,6 +125,10 @@ module.exports =
         description: 'À Confirmar',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '16:15'
+    ,
+      name: 'Happy Hour',
+      date: 'Sábado, 18 de Novembro de 2017',
+      time: '18:00'
     ]
 
     # Call for Papers info
