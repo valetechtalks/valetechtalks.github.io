@@ -23,9 +23,9 @@ module.exports =
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    # callToAction:
-      # text: 'Confirme sua presença'
-      # link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/244315151/'
+    callToAction:
+      text: 'Confirme sua presença'
+      link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/245079161/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
