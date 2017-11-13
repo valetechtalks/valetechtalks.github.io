@@ -93,10 +93,10 @@ module.exports =
         description: 'WebVR is an open standard that makes it possible to experience VR in your browser. There are some limits to use this technology in browsers but it is already possible. Lets see how to start VR studies, produce content to use within, some possibilities that it brings and how to enjoy it right now.',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '14:00'
-    ,
-      name: 'Coffee-Break',
-      date: 'Sábado, 18 de Novembro de 2017',
-      time: '15:00'
+    # ,
+    #   name: 'Coffee-Break',
+    #   date: 'Sábado, 18 de Novembro de 2017',
+    #   time: '15:00'
     ,
       name: 'Rafael Serpa Nery',
       email: 'rafael@nery.info',
@@ -111,24 +111,10 @@ module.exports =
         description: 'Talk fala sobre a história e utilização do gerenciador de dependências do PHP, o Composer.',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '15:15'
-    ,
-      name: '',
-      email: '',
-      photo: '',
-      bio: '',
-      company: '',
-      link:
-        href: '',
-        text: ''
-      presentation:
-        title: 'Palestra 4',
-        description: 'À Confirmar',
-        date: 'Sábado, 18 de Novembro de 2017',
-        time: '16:15'
-    ,
-      name: 'Happy Hour',
-      date: 'Sábado, 18 de Novembro de 2017',
-      time: '18:00'
+    # ,
+    #   name: 'Happy Hour',
+    #   date: 'Sábado, 18 de Novembro de 2017',
+    #   time: '18:00'
     ]
 
     # Call for Papers info
