@@ -76,7 +76,7 @@ module.exports =
         text: 'Website'
       presentation:
         title: 'Conhecendo o Event Loop no Node',
-        description: 'Quero mostrar de forma lúdica, como funciona a implementação do Event Loop no NodeJs/Browser',
+        description: 'O Event Loop em NodeJs é um dos conceitos mais importantes de se entender para que possamos escrever códigos melhores e tomar proveito de seu famoso I/O não bloqueante. Portanto iremos ver como funciona a implementação do Event Loop na plataforma Nodejs feita pela incrível LIBUV.',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '13:00'
     ,
