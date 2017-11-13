@@ -100,7 +100,7 @@ module.exports =
     ,
       name: 'Rafael Serpa Nery',
       email: 'rafael@nery.info',
-      photo: '',
+      photo: 'themes/yellow-swan/img/rafael-nery.jpg',
       bio: 'Coordenador de Desenvolvimento de Sistemas na Empresa Libre Soluções de Governo. Envolvido com desenvolvimento de Software desde 2004 com PHP/JS/PostgreSQL. ',
       company: '',
       link:
