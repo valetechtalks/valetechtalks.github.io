@@ -80,24 +80,6 @@ module.exports =
         date: 'Sábado, 18 de Novembro de 2017',
         time: '13:00'
     ,
-      name: 'Thiago Alves Luiz',
-      email: 'taltk9@gmail.com',
-      photo: 'themes/yellow-swan/img/thiago.jpg',
-      bio: 'Thiago is a front end and JavaScript developer, living in Novo Hamburgo, in Southern Brazil. He started web development over ten years ago building websites for publicity agencies. After this he spent a time developing ERP products at web plataform. He currently specializes in JavaScript applications (specially React applications) and is a Front End Developer at Codeminer 42 in Novo Hamburgo.',
-      company: 'Codeminer 42',
-      link:
-        href: 'https://www.linkedin.com/in/thiagoalvesluiz/',
-        text: 'Linkedin'
-      presentation:
-        title: 'How to enjoy WebVR right now',
-        description: 'WebVR is an open standard that makes it possible to experience VR in your browser. There are some limits to use this technology in browsers but it is already possible. Lets see how to start VR studies, produce content to use within, some possibilities that it brings and how to enjoy it right now.',
-        date: 'Sábado, 18 de Novembro de 2017',
-        time: '14:00'
-    # ,
-    #   name: 'Coffee-Break',
-    #   date: 'Sábado, 18 de Novembro de 2017',
-    #   time: '15:00'
-    ,
       name: 'Rafael Serpa Nery',
       email: 'rafael@nery.info',
       photo: 'themes/yellow-swan/img/rafael-nery.jpg',
@@ -109,6 +91,24 @@ module.exports =
       presentation:
         title: 'Gerenciamento de Dependências com Composer',
         description: 'Talk fala sobre a história e utilização do gerenciador de dependências do PHP, o Composer.',
+        date: 'Sábado, 18 de Novembro de 2017',
+        time: '14:00'
+    # ,
+    #   name: 'Coffee-Break',
+    #   date: 'Sábado, 18 de Novembro de 2017',
+    #   time: '15:00'
+    ,
+      name: 'Thiago Alves Luiz',
+      email: 'taltk9@gmail.com',
+      photo: 'themes/yellow-swan/img/thiago.jpg',
+      bio: 'Thiago is a front end and JavaScript developer, living in Novo Hamburgo, in Southern Brazil. He started web development over ten years ago building websites for publicity agencies. After this he spent a time developing ERP products at web plataform. He currently specializes in JavaScript applications (specially React applications) and is a Front End Developer at Codeminer 42 in Novo Hamburgo.',
+      company: 'Codeminer 42',
+      link:
+        href: 'https://www.linkedin.com/in/thiagoalvesluiz/',
+        text: 'Linkedin'
+      presentation:
+        title: 'How to enjoy WebVR right now',
+        description: 'WebVR is an open standard that makes it possible to experience VR in your browser. There are some limits to use this technology in browsers but it is already possible. Lets see how to start VR studies, produce content to use within, some possibilities that it brings and how to enjoy it right now.',
         date: 'Sábado, 18 de Novembro de 2017',
         time: '15:15'
     # ,
