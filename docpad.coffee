@@ -69,7 +69,7 @@ module.exports =
       name: 'Palmer Oliveira',
       email: 'expalmer@gmail.com',
       photo: 'themes/yellow-swan/img/palmer.jpg',
-      bio: 'Palmer é um Web Developer entusiasta Javascript que gosta de tentar entender como as coisas funcionam.',
+      bio: 'Palmer Oliveira trabalha como Web Developer a mais de 7 anos, é um entusiasta Javascript e estudante de Ciência da Computação na Ulbra Gravataí. Tem uma profunda vontade de aprender e entender como as coisas funcionam.',
       company: 'Renove3',
       link:
         href: 'https://expalmer.github.io',
