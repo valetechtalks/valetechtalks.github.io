@@ -12,20 +12,20 @@ module.exports =
     conf:
       name: 'Vale dos Desenvolvedores'
       description: 'Valley of Developers Meetup Roadmap 2017'
-      date: '18/Nov de 2017'
+      date: '14/Abril de 2018'
       # If your event is free, just comment this line
       # price: '$100',
-      venue: 'Universidade Feevale'
-      address: 'ERS-239, 2755'
-      city: 'Novo Hamburgo'
+      venue: 'Escola Duque de Caxias'
+      address: 'Av. Mauá, 1120'
+      city: 'Sapiranga'
       state: 'RS'
-      complement: 'Auditório do prédio Azul'
+      complement: 'Auditório do ginásio'
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
     callToAction:
       text: 'Confirme sua presença'
-      link: 'https://www.meetup.com/Vale-dos-Desenvolvedores/events/245079161/'
+      link: 'https://www.meetup.com/ValleyOfDevelopers/events/248813160/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -66,60 +66,52 @@ module.exports =
 
     # The entire schedule
     schedule: [
-      name: 'Palmer Oliveira',
-      email: 'expalmer@gmail.com',
-      photo: 'themes/yellow-swan/img/palmer.jpg',
-      bio: 'Palmer Oliveira trabalha como Web Developer a mais de 7 anos, é um entusiasta Javascript e estudante de Ciência da Computação na Ulbra Gravataí. Tem uma profunda vontade de aprender e entender como as coisas funcionam.',
-      company: 'Renove3',
+      name: 'Romulo Alves',
+      email: 'me@romuloalv.es',
+      photo: 'themes/yellow-swan/img/romulo.jpeg',
+      bio: 'Engenheiro de Software na PLING, desenvolvendo soluções web de ponta à ponta com JavaScript.',
+      company: 'Pling',
       link:
-        href: 'https://expalmer.github.io',
+        href: 'https://romuloalv.es/',
         text: 'Website'
       presentation:
-        title: 'Conhecendo o Event Loop no Node',
-        description: 'O Event Loop em NodeJs é um dos conceitos mais importantes de se entender para que possamos escrever códigos melhores e tomar proveito de seu famoso I/O não bloqueante. Portanto iremos ver como funciona a implementação do Event Loop na plataforma Nodejs feita pela incrível LIBUV.',
-        date: 'Sábado, 18 de Novembro de 2017',
-        time: '13:00'
+        title: 'Como fazer uma webapp carregar em até 3 segundos',
+        description: 'Como desenvolver uma webapp capaz de carregar em três segundos utilizando Server-side rendering com Next.js e Preact.',
+        date: 'Sábado, 14 de Abril de 2018',
+        time: '14:30'
     ,
-      name: 'Rafael Serpa Nery',
-      email: 'rafael@nery.info',
-      photo: 'themes/yellow-swan/img/rafael-nery.jpg',
-      bio: 'Coordenador de Desenvolvimento de Sistemas na Empresa Libre Soluções de Governo. Envolvido com desenvolvimento de Software desde 2004 com PHP/JS/PostgreSQL. ',
-      company: '',
-      link:
-        href: '',
-        text: ''
-      presentation:
-        title: 'Gerenciamento de Dependências com Composer',
-        description: 'Talk fala sobre a história e utilização do gerenciador de dependências do PHP, o Composer.',
-        date: 'Sábado, 18 de Novembro de 2017',
-        time: '14:00'
-    # ,
-    #   name: 'Coffee-Break',
-    #   date: 'Sábado, 18 de Novembro de 2017',
-    #   time: '15:00'
-    ,
-      name: 'Thiago Alves Luiz',
-      email: 'taltk9@gmail.com',
-      photo: 'themes/yellow-swan/img/thiago.jpg',
-      bio: 'Thiago is a front end and JavaScript developer, living in Novo Hamburgo, in Southern Brazil. He started web development over ten years ago building websites for publicity agencies. After this he spent a time developing ERP products at web plataform. He currently specializes in JavaScript applications (specially React applications) and is a Front End Developer at Codeminer 42 in Novo Hamburgo.',
+      name: 'Paulo Diovani',
+      email: 'paulo@diovani.com',
+      photo: 'https://www.gravatar.com/avatar/eeb1ef7b3ac88503c8189fbecd369387?size=120',
+      bio: 'Tecnólogo em Sistemas para Internet pela Universidade Feevale e Desenvolvedor na Codeminer 42. Usuário GNU/Linux desde 2005 e entusiasta de tecnologias Open Source.',
       company: 'Codeminer 42',
       link:
-        href: 'https://www.linkedin.com/in/thiagoalvesluiz/',
+        href: 'https://github.com/paulodiovani',
+        text: 'Github'
+      presentation:
+        title: 'Working abroad',
+        description: 'Paulo Diovani conta sua experiência indo à trabalho para o exterior pela primeira vez. Em Phoenix, Arizona, que dificuldades encontramos na cultura local e na forma como os norte americanos trabalham? Esta talk mostra alguns requisitos para trabalhar no exterior e como é a experiência de quem o faz. Seja você um nômade virtual, um freelancer ou esteja procurando oportunidades fora do país, será presenteado com uma visão de com é trabalhar nos Estados Unidos.',
+        date: 'Sábado, 14 de Abril de 2018',
+        time: '15:30'
+    ,
+      name: 'Morvana Bonin',
+      email: 'morvanabonin@gmail.com',
+      photo: 'themes/yellow-swan/img/morvana.jpeg',
+      bio: 'Analista de Desenvolvimento na empresa KingHost, estudante de Análise e Desenvolvimento de Sistemas (ADS) pela Faculdade Senac Porto Alegre, fundadora e uma das coordenadores do Meetup Microservices de Poa e entusiasta de Machine Learning.',
+      company: 'KingHost',
+      link:
+        href: 'https://www.linkedin.com/in/morvana-bonin',
         text: 'Linkedin'
       presentation:
-        title: 'How to enjoy WebVR right now',
-        description: 'WebVR is an open standard that makes it possible to experience VR in your browser. There are some limits to use this technology in browsers but it is already possible. Lets see how to start VR studies, produce content to use within, some possibilities that it brings and how to enjoy it right now.',
-        date: 'Sábado, 18 de Novembro de 2017',
-        time: '15:15'
-    # ,
-    #   name: 'Happy Hour',
-    #   date: 'Sábado, 18 de Novembro de 2017',
-    #   time: '18:00'
+        title: 'Introdução a Machine Learning',
+        description: 'Será abordado o inicial do que é Machine Learning, Aprendizagem Supervisionada, Aprendizagem Não Supervisionada e Aprendizagem por Reforço.',
+        date: 'Sábado, 14 de Abril de 2018',
+        time: '16:15'
     ]
 
     # Call for Papers info
-    callforpapers:
-      url: 'https://goo.gl/forms/Jyeqyrd1dwi2w3752'
+    # callforpapers:
+      # url: 'https://goo.gl/forms/Jyeqyrd1dwi2w3752'
 
     # List of Sponsors
     sponsors: [
@@ -133,9 +125,9 @@ module.exports =
       logo: 'themes/yellow-swan/img/codeminer42.jpg'
       url: 'http://codeminer42.com'
     ,
-      name: 'Universidade Feevale'
-      logo: 'themes/yellow-swan/img/feevale.jpg'
-      url: 'http://feevale.br'
+      name: 'Escola Duque de Caxias'
+      logo: 'themes/yellow-swan/img/duque.png'
+      url: 'http://www.duque.g12.br/'
     ]
 
     contacts: [
