@@ -11,7 +11,7 @@ module.exports =
     # Conference info
     conf:
       name: 'Vale dos Desenvolvedores'
-      description: 'Valley of Developers Meetup Roadmap 2017'
+      description: 'Vale dos Desenvolvedores'
       date: '14/Abril de 2018'
       # If your event is free, just comment this line
       # price: '$100',
