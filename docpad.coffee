@@ -10,22 +10,22 @@ module.exports =
   templateData:
     # Conference info
     conf:
-      name: 'Vale dos Desenvolvedores'
-      description: 'Vale dos Desenvolvedores'
-      date: '14/Abril de 2018'
+      name: 'Vale Tech Talks'
+      description: 'Meetup de Profissionais e Estudantes de TI do Vale do Rio dos Sinos'
+      # date: '14/Abril de 2018'
       # If your event is free, just comment this line
       # price: '$100',
-      venue: 'Escola Duque de Caxias'
-      address: 'Av. Mauá, 1120'
-      city: 'Sapiranga'
-      state: 'RS'
-      complement: 'Auditório do ginásio'
+      venue: 'Vale dos Sinos, RS, Brazil'
+      # address: 'Av. Mauá, 1120'
+      # city: 'Sapiranga'
+      # state: 'RS'
+      # complement: 'Auditório do ginásio'
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    callToAction:
-      text: 'Confirme sua presença'
-      link: 'https://www.meetup.com/ValleyOfDevelopers/events/248813160/'
+    # callToAction:
+    #   text: 'Confirme sua presença'
+    #   link: 'https://www.meetup.com/ValleyOfDevelopers/events/248813160/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -35,7 +35,7 @@ module.exports =
     # Site info
     site:
       theme: 'yellow-swan'
-      url: 'https://valleyofdevelopers.github.io/'
+      url: 'https://valetechtalks.github.io/'
       googleanalytics: 'UA-104968748-1'
       googleMapsApiKey: 'AIzaSyA2RQp4qEQfzRBgj6oyaa70uDp7nnIARUg'
 
@@ -44,11 +44,11 @@ module.exports =
     # you can also change order here and it will reflect on page
     sections: [
       'about'
-      'location'
-      'speakers'
-      'schedule'
+      # 'location'
+      # 'speakers'
+      # 'schedule'
       # 'callforpapers'
-      'sponsors'
+      # 'sponsors'
       'partners'
       'contact'
     ]
