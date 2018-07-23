@@ -35,7 +35,7 @@ module.exports =
     # Site info
     site:
       theme: 'yellow-swan'
-      url: 'https://valetechtalks.github.io/'
+      url: 'https://valetechtalks.github.io'
       googleanalytics: 'UA-104968748-1'
       googleMapsApiKey: 'AIzaSyA2RQp4qEQfzRBgj6oyaa70uDp7nnIARUg'
 
