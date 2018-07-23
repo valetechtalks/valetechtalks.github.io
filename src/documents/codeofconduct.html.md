@@ -15,7 +15,7 @@ ambiente seguro para todos.
 
 ### Versão Rápida (TL;DR)
 
-O Vale dos Desenvolvedores e todas as conferências filiadas são dedicadas a
+O Vale Tech Talks e todas as conferências filiadas são dedicadas a
 fornecer uma experiência de conferência livre de assédio para todos,
 independentemente do sexo, identidade de gênero e expressão, idade, orientação
 sexual, deficiência, aparência física, tamanho corporal, cor de pele, etnia,
