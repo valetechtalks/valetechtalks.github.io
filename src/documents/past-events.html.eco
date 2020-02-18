@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+<section id="past-events">
+  <% for event in @pastEvents : %>
+    <%- @partial("pastevents", false, { event }) %>
+  <% end %>
+</section>

@@ -1,0 +1,8 @@
+#### <%= @event.name %>
+
+_<%= @event.local_date %>_<br>
+_<%= @event.venue.name %>_
+
+> <%- @event.description %>
+
+[Confira no Meetup.com](<%= @event.link %>)
