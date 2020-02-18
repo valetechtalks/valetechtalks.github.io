@@ -1,15 +1,15 @@
-[![Build Status](https://travis-ci.org/valleyofdevelopers/valleyofdevelopers.github.io.svg?branch=develop)](https://travis-ci.org/valleyofdevelopers/valleyofdevelopers.github.io)
-[![dependencies Status](https://david-dm.org/valleyofdevelopers/valleyofdevelopers.github.io/status.svg)](https://david-dm.org/valleyofdevelopers/valleyofdevelopers.github.io)
+[![Build Status](https://travis-ci.org/valetechtalks/valetechtalks.github.io.svg?branch=develop)](https://travis-ci.org/valetechtalks/valetechtalks.github.io)
+[![dependencies Status](https://david-dm.org/valetechtalks/valetechtalks.github.io/status.svg)](https://david-dm.org/valetechtalks/valetechtalks.github.io)
 
-# Valley of Developers Website
+# Vale Tech Talks Website
 
 Based on [conf-boilerplate](https://github.com/valleyofdevelopers/conf-boilerplate).
 
-Please, visit [valleyofdevelopers.github.io](http://valleyofdevelopers.github.io).
+Please, visit [valetechtalks.github.io](http://valetechtalks.github.io).
 
 ## Contribute
 
-Check our [Issues page](https://github.com/valleyofdevelopers/valleyofdevelopers.github.io/issues)
+Check our [Issues page](https://github.com/valetechtalks/valetechtalks.github.io/issues)
 to know must be done.
 
 Fork the repository and open Pull Requests with your modification. You can also
@@ -24,8 +24,8 @@ ask to join the Organization.
 ### Usage
 
 ```bash
-git clone https://github.com/valleyofdevelopers/valleyofdevelopers.github.io.git
-cd valleyofdevelopers.github.io
+git clone https://github.com/valetechtalks/valetechtalks.github.io.git
+cd valetechtalks.github.io
 yarn
 yarn watch
 ```
