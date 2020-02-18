@@ -1,11 +1,17 @@
-module.exports =
+axios = require('axios')
+
+MEETUP_PAST_EVENTS_URL = 'https://api.meetup.com/valetechtalks/events?&sign=true&photo-host=public&page=20&desc=true&has_ended=true&status=past'
+
+docpadConfig =
   prompts: false
 
+  # ===============
   # Plugin configuration
   plugins:
     ghpages:
       deployBranch: 'master'
 
+  # ===============
   # These are variables will be accessible via our templates
   templateData:
     # Conference info
@@ -138,6 +144,9 @@ module.exports =
       email: 'boniatti.rodrigo@gmail.com'
     ]
 
+    # -----------------------------
+    # Helper Functions
+
     # Theme path
     getTheme: ->
       'themes/' + @site.theme
@@ -145,3 +154,16 @@ module.exports =
     # Site Path
     getUrl: ->
       @site.url
+
+  # ===============
+  # Events
+  events:
+    extendTemplateData: (opts, next)->
+      # fetch meetup events
+      axios.get MEETUP_PAST_EVENTS_URL
+        .then (res) ->
+          opts.templateData.pastEvents = res.data
+          next()
+        .catch next
+
+module.exports = docpadConfig
