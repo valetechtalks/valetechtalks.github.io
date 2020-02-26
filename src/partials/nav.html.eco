@@ -8,6 +8,10 @@
     <% end %>
 
     <li class="nav-item">
+      <a href="/past-events.html" target="_self" title="Eventos Anteriores" class="nav-link">Eventos Anteriores</a>
+    </li>
+
+    <li class="nav-item">
       <a href="/codeofconduct.html" target="_self" title="Código de Conduta" class="nav-link">Código de Conduta</a>
     </li>
   </ul>
