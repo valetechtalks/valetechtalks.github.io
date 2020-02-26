@@ -1,6 +1,12 @@
 axios = require('axios')
 
-MEETUP_PAST_EVENTS_URL = 'https://api.meetup.com/valetechtalks/events?&sign=true&photo-host=public&page=20&desc=true&has_ended=true&status=past'
+MEETUP_PAST_EVENTS_URL = 'https://api.meetup.com/valetechtalks/events\
+  ?sign=true\
+  &photo-host=public\
+  &page=20\
+  &fields=featured_photo\
+  &desc=true\
+  &status=past'
 
 docpadConfig =
   prompts: false
