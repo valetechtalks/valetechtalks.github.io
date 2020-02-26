@@ -1,5 +1,12 @@
 axios = require('axios')
 
+MEETUP_UPCOMING_EVENTS_URL = 'https://api.meetup.com/valetechtalks/events\
+  ?&sign=true\
+  &photo-host=public\
+  &page=1\
+  &fields=featured_photo\
+  &status=upcoming'
+
 MEETUP_PAST_EVENTS_URL = 'https://api.meetup.com/valetechtalks/events\
   ?sign=true\
   &photo-host=public\
@@ -56,6 +63,7 @@ docpadConfig =
     # you can also change order here and it will reflect on page
     sections: [
       'about'
+      'upcoming' # use only when other sections are not ready
       # 'location'
       # 'speakers'
       # 'schedule'
@@ -68,6 +76,7 @@ docpadConfig =
     # Labels which you can translate to other languages
     labels:
       about: 'Sobre'
+      upcoming: 'Próximo Evento'
       location: 'Localização'
       speakers: 'Palestrantes'
       schedule: 'Programação'
@@ -136,10 +145,10 @@ docpadConfig =
       name: 'Codeminer 42'
       logo: 'themes/yellow-swan/img/codeminer42.jpg'
       url: 'http://codeminer42.com'
-    ,
-      name: 'Escola Duque de Caxias'
-      logo: 'themes/yellow-swan/img/duque.png'
-      url: 'http://www.duque.g12.br/'
+    # ,
+    #   name: 'Escola Duque de Caxias'
+    #   logo: 'themes/yellow-swan/img/duque.png'
+    #   url: 'http://www.duque.g12.br/'
     ]
 
     contacts: [
@@ -165,10 +174,13 @@ docpadConfig =
   # Events
   events:
     extendTemplateData: (opts, next)->
-      # fetch meetup events
-      axios.get MEETUP_PAST_EVENTS_URL
-        .then (res) ->
-          opts.templateData.pastEvents = res.data
+      Promise.all([
+        axios.get(MEETUP_UPCOMING_EVENTS_URL),
+        axios.get(MEETUP_PAST_EVENTS_URL)
+      ])
+        .then ([resUpcoming, resPast]) ->
+          opts.templateData.upcomingEvent = resUpcoming.data[0] if resUpcoming.data.length > 0
+          opts.templateData.pastEvents = resPast.data
           next()
         .catch next
 

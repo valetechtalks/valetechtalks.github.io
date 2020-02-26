@@ -4,7 +4,7 @@ layout: default
 
 <h2>Eventos Anteriores</h2>
 
-<section id="past-events">
+<section id="past-events" class="past-events">
   <% for event in @pastEvents : %>
     <div class="past-events-item">
       <%- @partial("pastevents", false, { event }) %>
