@@ -1,8 +1,6 @@
 ### <%= @event.name %>
 
-<% if @event.featured_photo: %>
-  <img src="<%= @event.featured_photo.photo_link %>" alt="[featured photo]">
-<% end %>
+<%= "![featured photo](#{@event.featured_photo.photo_link})" if @event.featured_photo %>
 
 _<%= @event.local_date %>_<br>
 _<%= @event.venue.name %>_

@@ -1,11 +1,23 @@
+.card {
+	background: #fff;
+	border-radius: 4px;
+	border: 1px solid #e7e7e7;
+	padding: 19px;
+	margin: 0 -20px 0;
+}
+
 .speakers-item p {
   font-size:1.6em;
 }
 
-.past-events-item {
-  padding: 20px 30px;
+.upcoming {
+	.card();
 }
 
-.past-events-item:nth-child(even) {
-  background: #E6E6E6;
+.past-events-item {
+	.card();
+
+  &:nth-child(even) {
+    background: #FAFAFA;
+  }
 }
