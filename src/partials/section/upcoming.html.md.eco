@@ -1,0 +1,20 @@
+## Próximo Evento
+
+<% if @upcomingEvent: %>
+
+  ### <%= @upcomingEvent.name %>
+
+  <%= "![featured photo](#{@upcomingEvent.featured_photo.photo_link})" if @upcomingEvent.featured_photo %>
+
+  _<%= @upcomingEvent.local_date %>_<br>
+  _<%= @upcomingEvent.venue.name %>_
+
+  > <%- @upcomingEvent.description %>
+
+  [Confira no Meetup.com](<%= @upcomingEvent.link %>)
+
+<% else: %>
+  
+  Sem próximos eventos agendados.
+
+<% end %>
