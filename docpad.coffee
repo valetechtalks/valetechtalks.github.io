@@ -144,11 +144,15 @@ docpadConfig =
     partners: [
       name: 'Codeminer 42'
       logo: 'themes/yellow-swan/img/codeminer42.jpg'
-      url: 'http://codeminer42.com'
+      url: 'https://www.codeminer42.com'
     ,
       name: 'Universidade Feevale'
       logo: 'themes/yellow-swan/img/feevale.jpg'
-      url: 'http://codeminer42.com'
+      url: 'https://www.feevale.br'
+    ,
+      name: 'Diretório Acadêmico da Computação'
+      logo: 'themes/yellow-swan/img/dac-feevale.jpg'
+      url: 'https://www.facebook.com/feevaledac/'
     # ,
     #   name: 'Escola Duque de Caxias'
     #   logo: 'themes/yellow-swan/img/duque.png'
