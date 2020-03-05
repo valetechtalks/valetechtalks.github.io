@@ -31,25 +31,25 @@ docpadConfig =
     conf:
       name: 'Vale Tech Talks'
       description: 'Meetup de Profissionais e Estudantes de TI do Vale do Rio dos Sinos'
-      # date: '14/Abril de 2018'
+      date: '21 de Março de 2020'
       # If your event is free, just comment this line
       # price: '$100',
-      venue: 'Vale dos Sinos, RS, Brazil'
-      # address: 'Av. Mauá, 1120'
-      # city: 'Sapiranga'
-      # state: 'RS'
-      # complement: 'Auditório do ginásio'
+      venue: 'Universidade Feevale, Vale dos Sinos, RS, Brazil'
+      address: 'ERS-239, 2755'
+      city: 'Novo Hamburgo'
+      state: 'RS'
+      complement: 'Salão de Exposições do Prédio Arenito'
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    # callToAction:
-    #   text: 'Confirme sua presença'
-    #   link: 'https://www.meetup.com/ValleyOfDevelopers/events/248813160/'
+    callToAction:
+      text: 'Confirme sua presença'
+      link: 'https://www.meetup.com/valetechtalks/events/268854460/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
-    # forkButton:
-    #   repository: 'https://github.com/valleyofdevelopers/valleyofdevelopers.github.io'
+    forkButton:
+      repository: 'https://github.com/valetechtalks/valetechtalks.github.io'
 
     # Site info
     site:
@@ -64,7 +64,7 @@ docpadConfig =
     sections: [
       'about'
       'upcoming' # use only when other sections are not ready
-      # 'location'
+      'location'
       # 'speakers'
       # 'schedule'
       # 'callforpapers'
@@ -144,6 +144,10 @@ docpadConfig =
     partners: [
       name: 'Codeminer 42'
       logo: 'themes/yellow-swan/img/codeminer42.jpg'
+      url: 'http://codeminer42.com'
+    ,
+      name: 'Universidade Feevale'
+      logo: 'themes/yellow-swan/img/feevale.jpg'
       url: 'http://codeminer42.com'
     # ,
     #   name: 'Escola Duque de Caxias'
