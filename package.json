@@ -12,7 +12,7 @@
     "watch": "docpad run"
   },
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "docpad": "^6.79.4",
     "docpad-plugin-eco": "^2.1.0",
     "docpad-plugin-ghpages": "^2.4.4",
