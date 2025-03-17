@@ -1,5 +1,7 @@
 ## Sobre
 
-Vale Tech Talks é uma iniciativa independente de profissionais de TI do Vale dos Sinos para realizar Meetups e outros eventos para promover a troca de conhecimento e _Networking_ entre quaisquer envolvidos ou interessados em tecnologia.
+Vale Tech Talks está retomando as atividades! Queremos reunir a comunidade da computação do Vale do Sinos e região novamente. E já temos data confirmada, será dia 12 de abril na Universidade Feevale! 
 
-Nossos Meetups incluem palestras diversas de assuntos como Linguagens de Programação, Frameworks, Carreira e etc, com o foco de fazer Meetups em diferentes cidades do Vale dos Sinos.
+Nossa iniciativa é formada por profissionais independentes de TI do Vale dos Sinos para realizar Meetups e outros eventos para promover a troca de conhecimento e Networking entre quaisquer envolvidos ou interessados em tecnologia.
+
+Nossos encontros incluem palestras diversas de assuntos como Linguagens de Programação, Frameworks, Carreira, novas tecnologias, etc.
