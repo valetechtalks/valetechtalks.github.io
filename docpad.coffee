@@ -90,47 +90,19 @@ docpadConfig =
 
     # The entire schedule
     schedule: [
-      name: 'Romulo Alves',
-      email: 'me@romuloalv.es',
-      photo: 'themes/yellow-swan/img/romulo.jpeg',
-      bio: 'Engenheiro de Software na PLING, desenvolvendo soluções web de ponta à ponta com JavaScript.',
-      company: 'Pling',
+      name: '',
+      email: '',
+      photo: '',
+      bio: '',
+      company: '',
       link:
-        href: 'https://romuloalv.es/',
+        href: '',
         text: 'Website'
       presentation:
-        title: 'Como fazer uma webapp carregar em até 3 segundos',
-        description: 'Como desenvolver uma webapp capaz de carregar em três segundos utilizando Server-side rendering com Next.js e Preact.',
-        date: 'Sábado, 14 de Abril de 2018',
-        time: '14:30'
-    ,
-      name: 'Paulo Diovani',
-      email: 'paulo@diovani.com',
-      photo: 'https://www.gravatar.com/avatar/eeb1ef7b3ac88503c8189fbecd369387?size=120',
-      bio: 'Tecnólogo em Sistemas para Internet pela Universidade Feevale e Desenvolvedor na Codeminer 42. Usuário GNU/Linux desde 2005 e entusiasta de tecnologias Open Source.',
-      company: 'Codeminer 42',
-      link:
-        href: 'https://github.com/paulodiovani',
-        text: 'Github'
-      presentation:
-        title: 'Working abroad',
-        description: 'Paulo Diovani conta sua experiência indo à trabalho para o exterior pela primeira vez. Em Phoenix, Arizona, que dificuldades encontramos na cultura local e na forma como os norte americanos trabalham? Esta talk mostra alguns requisitos para trabalhar no exterior e como é a experiência de quem o faz. Seja você um nômade virtual, um freelancer ou esteja procurando oportunidades fora do país, será presenteado com uma visão de com é trabalhar nos Estados Unidos.',
-        date: 'Sábado, 14 de Abril de 2018',
-        time: '15:30'
-    ,
-      name: 'Morvana Bonin',
-      email: 'morvanabonin@gmail.com',
-      photo: 'themes/yellow-swan/img/morvana.jpeg',
-      bio: 'Analista de Desenvolvimento na empresa KingHost, estudante de Análise e Desenvolvimento de Sistemas (ADS) pela Faculdade Senac Porto Alegre, fundadora e uma das coordenadores do Meetup Microservices de Poa e entusiasta de Machine Learning.',
-      company: 'KingHost',
-      link:
-        href: 'https://www.linkedin.com/in/morvana-bonin',
-        text: 'Linkedin'
-      presentation:
-        title: 'Introdução a Machine Learning',
-        description: 'Será abordado o inicial do que é Machine Learning, Aprendizagem Supervisionada, Aprendizagem Não Supervisionada e Aprendizagem por Reforço.',
-        date: 'Sábado, 14 de Abril de 2018',
-        time: '16:15'
+        title: '',
+        description: '',
+        date: '',
+        time: ''
     ]
 
     # Call for Papers info
