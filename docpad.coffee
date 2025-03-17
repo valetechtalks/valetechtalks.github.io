@@ -1,5 +1,8 @@
 axios = require('axios')
 
+# TODO: These urls are deprecated
+# meetup.com now uses graphql and requires auth
+
 MEETUP_UPCOMING_EVENTS_URL = 'https://api.meetup.com/valetechtalks/events\
   ?&sign=true\
   &photo-host=public\
@@ -31,7 +34,7 @@ docpadConfig =
     conf:
       name: 'Vale Tech Talks'
       description: 'Meetup de Profissionais e Estudantes de TI do Vale do Rio dos Sinos'
-      date: '21 de Março de 2020'
+      date: '12 de Abril de 2025'
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale, Vale dos Sinos, RS, Brazil'
@@ -42,9 +45,9 @@ docpadConfig =
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    callToAction:
-      text: 'Confirme sua presença'
-      link: 'https://www.meetup.com/valetechtalks/events/268854460/'
+    # callToAction:
+    #   text: 'Confirme sua presença'
+    #   link: 'https://www.meetup.com/valetechtalks/events/268854460/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -63,12 +66,12 @@ docpadConfig =
     # you can also change order here and it will reflect on page
     sections: [
       'about'
-      'upcoming' # use only when other sections are not ready
+      # 'upcoming' # use only when other sections are not ready
       'location'
       # 'speakers'
       # 'schedule'
       # 'callforpapers'
-      # 'sponsors'
+      'sponsors'
       'partners'
       'contact'
     ]
@@ -83,7 +86,7 @@ docpadConfig =
       callforpapers: 'Chamada para Trabalhos'
       sponsors: 'Patrocinadores'
       partners: 'Apoio'
-      contact: 'Contato'
+      # contact: 'Contato'
 
     # The entire schedule
     schedule: [
@@ -142,10 +145,6 @@ docpadConfig =
 
     # List of Partners
     partners: [
-      name: 'Codeminer 42'
-      logo: 'themes/yellow-swan/img/codeminer42.jpg'
-      url: 'https://www.codeminer42.com'
-    ,
       name: 'Universidade Feevale'
       logo: 'themes/yellow-swan/img/feevale.jpg'
       url: 'https://www.feevale.br'
@@ -153,18 +152,14 @@ docpadConfig =
       name: 'Diretório Acadêmico da Computação'
       logo: 'themes/yellow-swan/img/dac-feevale.jpg'
       url: 'https://www.facebook.com/feevaledac/'
-    # ,
-    #   name: 'Escola Duque de Caxias'
-    #   logo: 'themes/yellow-swan/img/duque.png'
-    #   url: 'http://www.duque.g12.br/'
     ]
 
     contacts: [
       name: 'Paulo Diovani'
-      email: 'paulo@diovani.com'
+      # email: ''
     ,
       name: 'Rodrigo Boniatti'
-      email: 'boniatti.rodrigo@gmail.com'
+      # email: ''
     ]
 
     # -----------------------------
@@ -182,14 +177,18 @@ docpadConfig =
   # Events
   events:
     extendTemplateData: (opts, next)->
-      Promise.all([
-        axios.get(MEETUP_UPCOMING_EVENTS_URL),
-        axios.get(MEETUP_PAST_EVENTS_URL)
-      ])
-        .then ([resUpcoming, resPast]) ->
-          opts.templateData.upcomingEvent = resUpcoming.data[0] if resUpcoming.data.length > 0
-          opts.templateData.pastEvents = resPast.data
-          next()
-        .catch next
+      # Promise.all([
+      #   axios.get(MEETUP_UPCOMING_EVENTS_URL),
+      #   axios.get(MEETUP_PAST_EVENTS_URL)
+      # ])
+      #   .then ([resUpcoming, resPast]) ->
+      #     opts.templateData.upcomingEvent = resUpcoming.data[0] if resUpcoming.data.length > 0
+      #     opts.templateData.pastEvents = resPast.data
+      #     next()
+      #   .catch next
+
+      opts.templateData.upcomingEvent = {}
+      opts.templateData.pastEvents = []
+      next()
 
 module.exports = docpadConfig
