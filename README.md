@@ -17,21 +17,26 @@ ask to join the Organization.
 
 ### Dependencies
 
-- git
-- nodejs
-- yarn
+- Docker and Docker Compose
+- rsync (for deploying)
 
 ### Usage
 
 ```bash
 git clone https://github.com/valetechtalks/valetechtalks.github.io.git
 cd valetechtalks.github.io
-yarn
-yarn watch
+docker compose up
 ```
+
+Then visit `http://localhost:9778` in your browser.
 
 ### Deploy
 
 ```bash
-yarn deploy
+docker compose run -rm web yarn generate
+git checkout master
+rsync -r out/ .
+git add --all
+git commit -m 'Update page'
+git push origin master
 ```

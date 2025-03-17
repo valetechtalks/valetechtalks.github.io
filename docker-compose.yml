@@ -1,0 +1,11 @@
+---
+services:
+  web:
+    build: .
+    volumes:
+      - ./src:/app/src
+      - ./out:/app/out
+      - ./docpad.coffee:/app/docpad.coffee
+    ports:
+      - 9778:9778
+    command: yarn watch
