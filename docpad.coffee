@@ -68,8 +68,8 @@ docpadConfig =
       'about'
       # 'upcoming' # use only when other sections are not ready
       'location'
-      # 'speakers'
-      # 'schedule'
+      'speakers'
+      'schedule'
       # 'callforpapers'
       'sponsors'
       'partners'
@@ -90,6 +90,35 @@ docpadConfig =
 
     # The entire schedule
     schedule: [
+      name: 'Gabriel da Silva Simões',
+      email: '',
+      photo: '',
+      bio: 'Doutor em Ciência da Computação, professor da Universidade Feevale e desenvolvedor de sistemas com foco em aplicações práticas de Inteligência Artificial. Atua na pesquisa e no desenvolvimento de soluções inovadoras que integram IA em diferentes contextos, aliando teoria e prática para transformar tecnologias emergentes em produtos e serviços reais.',
+      company: '',
+      link:
+        href: '',
+        text: 'Website'
+      presentation:
+        title: 'Dos Perceptrons à IA Multimodal: Como avanços científicos estão moldando o futuro',
+        description: 'Como os principais avanços da IA impulsionaram o progresso da inteligência artificial. Um papo sobre as inovações que estão por trás de produtos reais, como assistentes inteligentes, ferramentas criativas e sistemas que combinam texto, imagem e muito mais',
+        date: '2025-04-12',
+        time: '09:00'
+    ,
+      name: 'Rodrigo Boniatti',
+      email: '',
+      photo: '',
+      bio: '',
+      company: '',
+      link:
+        href: '',
+        text: 'Website'
+      presentation:
+        title: 'Evolução do desenvolvimento web. Um apanhado geral, cobrindo onde chegamos e como chegamos',
+        description: '',
+        date: '2025-04-12',
+        time: '09:45'
+    # ,
+    ,
       name: '',
       email: '',
       photo: '',
@@ -103,6 +132,33 @@ docpadConfig =
         description: '',
         date: '',
         time: ''
+    ,
+      name: '',
+      email: '',
+      photo: '',
+      bio: '',
+      company: '',
+      link:
+        href: '',
+        text: 'Website'
+      presentation:
+        title: '',
+        description: '',
+        date: '',
+        time: ''
+    #   name: '',
+    #   email: '',
+    #   photo: '',
+    #   bio: '',
+    #   company: '',
+    #   link:
+    #     href: '',
+    #     text: 'Website'
+    #   presentation:
+    #     title: '',
+    #     description: '',
+    #     date: '',
+    #     time: ''
     ]
 
     # Call for Papers info
