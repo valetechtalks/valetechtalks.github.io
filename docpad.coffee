@@ -38,7 +38,7 @@ docpadConfig =
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale, Vale dos Sinos, RS, Brazil'
-      address: 'ERS-239, 2755'
+      address: 'RS-239, 2755'
       city: 'Novo Hamburgo'
       state: 'RS'
       complement: 'Salão de Exposições do Prédio Arenito'
