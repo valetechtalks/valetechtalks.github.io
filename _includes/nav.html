@@ -1,0 +1,11 @@
+<!-- NAV -->
+<nav class="nav">
+  <ul class="nav-list">
+    {% for section in site.sections %}
+      <li class="nav-item">
+        <a href="#{{ section }}" class="nav-link">{{ site.labels[section] }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+<!-- / NAV -->

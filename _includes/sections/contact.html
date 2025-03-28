@@ -1,0 +1,15 @@
+<h2 class="section-title">{{ site.data.contact.title }}</h2>
+<div class="contact">
+  {{ site.data.contact.content | markdownify }}
+
+  <ul class="contacts-list">
+  {% for contact in site.data.contacts %}
+    <li class="contact-item">
+      <span class="contact-name">{{ contact.name }}</span>
+      {% if contact.email %}
+        <a href="mailto:{{ contact.email }}" class="contact-email">{{ contact.email }}</a>
+      {% endif %}
+    </li>
+  {% endfor %}
+  </ul>
+</div>

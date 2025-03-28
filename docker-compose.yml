@@ -3,9 +3,7 @@ services:
   web:
     build: .
     volumes:
-      - ./src:/app/src
-      - ./out:/app/out
-      - ./docpad.coffee:/app/docpad.coffee
+      - .:/app
     ports:
-      - 9778:9778
-    command: yarn watch
+      - 4000:4000
+    command: bundle exec jekyll serve --host 0.0.0.0 --livereload

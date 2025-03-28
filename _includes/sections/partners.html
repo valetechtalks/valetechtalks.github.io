@@ -1,0 +1,10 @@
+<h2 class="section-title">{{ site.labels.partners }}</h2>
+<ul class="partners-list">
+{% for partner in site.data.partners %}
+  <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ partner.url }}" class="partner-link" itemprop="url" target="_blank">
+      <img src="{{ partner.logo }}" alt="{{ partner.name }}" class="photo" itemprop="image">
+    </a>
+  </li>
+{% endfor %}
+</ul>

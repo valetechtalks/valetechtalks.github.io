@@ -1,0 +1,6 @@
+<h2 class="section-title">{{ site.labels.location }}</h2>
+
+<p>{{ site.conference.address }}, {{ site.conference.city }}, {{ site.conference.state }}</p>
+<p>{{ site.conference.complement }}</p>
+
+<div id="map-canvas" class="location-area" data-address="{{ site.conference.address }}, {{ site.conference.city }} - {{ site.conference.state }}" data-title="{{ site.conference.name }}"></div>

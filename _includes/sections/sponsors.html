@@ -1,0 +1,15 @@
+<h2 class="section-title">{{ site.labels.sponsors }}</h2>
+<ul class="sponsors-list">
+{% for sponsor in site.data.sponsors %}
+  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
+    <a href="{{ sponsor.url }}" class="sponsor--link" itemprop="url" target="_blank">
+      <img src="{{ sponsor.logo }}" alt="{{ sponsor.name }}" class="photo" itemprop="image">
+    </a>
+  </li>
+{% endfor %}
+  <li class="sponsor-item">
+    <a class="sponsor--link sponsor-call" href="#contact" title="Seja um patrocinador">
+    	<img src="/assets/img/seja-um-patrocinador.jpg" alt="Seja um patronicador" class="photo">
+    </a>
+  </li>
+</ul>

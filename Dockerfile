@@ -1,10 +1,18 @@
-FROM node:8.17.0-alpine
+FROM ruby:3.2-slim
 
-RUN apk add --no-cache git
+# Install required dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    git \
+    && rm -rf /var/lib/apt/lists/*
 
-COPY . /app
 WORKDIR /app
 
-VOLUME /app/node_modules
+COPY Gemfile Gemfile.lock* ./
+RUN bundle install
 
-RUN yarn install
+COPY . .
+
+EXPOSE 4000
+
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]

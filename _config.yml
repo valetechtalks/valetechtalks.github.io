@@ -1,0 +1,67 @@
+# Site settings
+title: Vale Tech Talks
+description: Meetup de Profissionais e Estudantes de TI do Vale do Rio dos Sinos
+baseurl: ""
+url: "https://valetechtalks.github.io"
+# No theme specified as we're using our own custom theme
+google_analytics: UA-104968748-1
+google_maps_api_key: AIzaSyA2RQp4qEQfzRBgj6oyaa70uDp7nnIARUg
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .github
+  - README.md
+  - Dockerfile
+  - docker-compose.yml
+
+# Site configuration
+conference:
+  name: Vale Tech Talks
+  description: Meetup de Profissionais e Estudantes de TI do Vale do Rio dos Sinos
+  date: 12 de Abril de 2025
+  venue: Universidade Feevale, Vale dos Sinos, RS, Brazil
+  address: RS-239, 2755
+  city: Novo Hamburgo
+  state: RS
+  complement: Salão de Exposições do Prédio Arenito
+
+# Call to action button
+call_to_action:
+  text: Confirme sua presença
+  link: https://www.meetup.com/valetechtalks/events/306961928/
+
+# Fork me on GitHub button
+fork_button:
+  repository: https://github.com/valetechtalks/valetechtalks.github.io
+
+# Active sections on the website
+sections:
+  - about
+  - location
+  - speakers
+  - schedule
+  - sponsors
+  - partners
+  - contact
+
+# Section labels
+labels:
+  about: Sobre
+  upcoming: Próximo Evento
+  location: Localização
+  speakers: Palestrantes
+  schedule: Programação
+  callforpapers: Chamada para Trabalhos
+  sponsors: Patrocinadores
+  partners: Apoio

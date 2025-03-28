@@ -1,0 +1,70 @@
+<!doctype html>
+<html itemscope itemtype="http://schema.org/Event">
+<head>
+  <title itemprop="name">{{ site.conference.name }}</title>
+
+  <meta charset="utf-8">
+  <meta name="author" content="{{ site.conference.name }}">
+  <meta name="description" content="{{ site.conference.description }}">
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <!-- FACEBOOK -->
+  <meta property="fb:app_id" content="372862979453673">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}">
+  <meta property="og:title" content="{{ site.conference.name }}">
+  <meta property="og:description" content="{{ site.conference.description }}">
+  <meta property="og:image" content="{{ site.url }}/assets/img/banner.png">
+  <!-- / FACEBOOK -->
+
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+
+  <!-- STYLES -->
+  <link rel="stylesheet" type="text/css" href="/assets/css/main.css">
+  <!-- / STYLES -->
+</head>
+<body>
+  <div class="global">
+    {% include nav.html %}
+    {% include header.html %}
+
+    <!-- CONTENT -->
+    <div class="content" id="content">
+      <div class="wrapper">
+        {{ content }}
+        <!-- FOOTER -->
+        <footer class="footer">
+          <p>Made with ♥ by <a href="https://github.com/valetechtalks" target="_blank">Vale Tech Talks</a></p>
+        </footer>
+        <!-- / FOOTER -->
+      </div>
+    </div>
+    <!-- / CONTENT -->
+  </div>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/assets/js/jquery.js"><\/script>')</script>
+
+  {% if site.conference.address != '' %}
+  <script src="//maps.google.com/maps/api/js?sensor=false&key={{ site.google_maps_api_key }}"></script>
+  <script src="/assets/js/main.js"></script>
+  {% endif %}
+
+  <!-- GOOGLE ANALYTICS -->
+  {% if site.google_analytics %}
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', '{{ site.google_analytics }}']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+  {% endif %}
+  <!-- /GOOGLE ANALYTICS -->
+</body>
+</html>

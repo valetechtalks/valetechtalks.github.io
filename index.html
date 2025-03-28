@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% for section in site.sections %}
+  <!-- {{ section | upcase }} -->
+
+  <section class="{{ section }}" id="{{ section }}">
+    {% include sections/{{ section }}.html %}
+  </section>
+
+  <!-- / {{ section | upcase }} -->
+{% endfor %}

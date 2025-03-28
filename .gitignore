@@ -1,5 +1,47 @@
+# macOS
 .DS_Store
+
+# Node.js (legacy)
 node_modules
-out
-.tool-versions
 package-lock.json
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+.jekyll-pages/
+vendor/
+
+# Ruby
+*.gem
+*.rbc
+/.config
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+Gemfile.lock
+
+# Environment
+.env
+.env.*
+.tool-versions
+
+# Logs and temporary files
+*.log
+*.swp
+*.tmp
+.tmp/
+tmp/
+log/
+
+# IDE
+.idea/
+.vscode/
+*.sublime*
+*.code-workspace
+
+# Build output
+out/
+build/
+dist/

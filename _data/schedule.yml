@@ -1,0 +1,45 @@
+- name: Gabriel da Silva Simões
+  photo: /assets/img/gabriel_simoes.jpg
+  bio: Doutor em Ciência da Computação, professor da Universidade Feevale e desenvolvedor de sistemas com foco em aplicações práticas de Inteligência Artificial. Atua na pesquisa e no desenvolvimento de soluções inovadoras que integram IA em diferentes contextos, aliando teoria e prática para transformar tecnologias emergentes em produtos e serviços reais.
+  company: Universidade Feevale
+  presentation:
+    title: Dos Perceptrons à IA Multimodal - Como avanços científicos estão moldando o futuro
+    description: Como os principais avanços da IA impulsionaram o progresso da inteligência artificial. Um papo sobre as inovações que estão por trás de produtos reais, como assistentes inteligentes, ferramentas criativas e sistemas que combinam texto, imagem e muito mais
+    date: 2025-04-12
+    time: "09:15"
+
+- name: Rodrigo Boniatti
+  photo: /assets/img/rodrigo_boniatti.jpg
+  bio: Formado em Sistemas para Internet, pela Universidade Feevale, Rodrigo trabalha com tecnologia há mais de uma década. Hoje atua como VP de Engenharia na Vanta, startup americana que fornece soluções de esports para escolas e organizações.
+  company: Vanta
+  link:
+    href: https://www.linkedin.com/in/rodrigoboniatti
+    text: LinkedIn
+  presentation:
+    title: Desafios da Web Moderna e os caminhos que nos trouxeram até aqui
+    description: Atualmente, criar aplicações web ficou mais fácil e prático, mas, ao mesmo tempo, foi tomado por uma crescente complexidade de ferramentas e requisitos. Com a evolução dos dispositivos e o aumento das expectativas dos usuários, tornou-se crucial que as páginas ofereçam rapidez, acessibilidade e responsividade. Nesta apresentação, vou explorar como cada ferramenta surgiu para resolver desafios específicos e os novos problemas que elas introduziram no processo.
+    date: 2025-04-12
+    time: "10:05"
+
+- name: Luiz Eduardo Gallas
+  photo: /assets/img/luiz_gallas.jpg
+  bio: Luiz Eduardo Gallas é bacharel em Ciência da Computação pela Universidade Feevale e desenvolvedor Front-end Web e Mobile com seis anos de experiência, incluindo três no exterior. Atualmente, atua no desenvolvimento web na GoDaddy, uma provedora global de domínios e serviços de hospedagem com sede nos EUA.
+  company: GoDaddy
+  presentation:
+    title: Roda de Conversa sobre trabalho no exterior
+    description: ""
+    date: 2025-04-12
+    time: "10:55"
+
+- name: Matias Henrique Leidemer
+  photo: /assets/img/matias_leidemer.jpg
+  bio: Matias Leidemer é engenheiro de software formado pela Unisinos, com 20 anos de experiência. Destes 20 anos, 10 foram trabalhando para empresas do exterior, desempenhando diferentes papéis. Atualmente trabalha como Sr. Fullstack Engineer na Tropic, uma empresa americana que atua na área de "procurement".
+  link:
+    href: https://matiasleidemer.dev
+    text: Website
+  company: Tropic
+  presentation:
+    title: Roda de Conversa sobre trabalho no exterior
+    description: ""
+    date: 2025-04-12
+    time: "10:55"

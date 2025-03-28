@@ -1,0 +1,18 @@
+<h2 class="section-title">{{ site.labels.speakers }}</h2>
+
+<ul class="speakers-list">
+{% for speaker in site.data.schedule %}
+  {% if speaker.presentation %}
+    <li class="speakers-item" itemprop="performer" itemscope itemtype="http://schema.org/Person">
+      {% if speaker.photo %}
+        <span class="speaker-photo">
+          <img class="photo" src="{{ speaker.photo }}" alt="{{ speaker.name }}" itemprop="image">
+        </span>
+      {% endif %}
+
+      <h3 class="speech-title">{{ speaker.name }} {% if speaker.link %}<a href="{{ speaker.link.href }}" target="_blank" title="{{ speaker.link.text }}">{{ speaker.link.text }}</a>{% endif %}</h3>
+      <p class="speakers-bio">{{ speaker.bio }}</p>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>

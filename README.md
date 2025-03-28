@@ -1,16 +1,13 @@
-[![Build Status](https://travis-ci.org/valetechtalks/valetechtalks.github.io.svg?branch=develop)](https://travis-ci.org/valetechtalks/valetechtalks.github.io)
-[![dependencies Status](https://david-dm.org/valetechtalks/valetechtalks.github.io/status.svg)](https://david-dm.org/valetechtalks/valetechtalks.github.io)
-
 # Vale Tech Talks Website
 
-Based on [conf-boilerplate](https://github.com/valleyofdevelopers/conf-boilerplate).
+A website for the Vale Tech Talks community events, built with Jekyll.
 
-Please, visit [valetechtalks.github.io](http://valetechtalks.github.io).
+Please, visit [valetechtalks.github.io](https://valetechtalks.github.io).
 
 ## Contribute
 
 Check our [Issues page](https://github.com/valetechtalks/valetechtalks.github.io/issues)
-to know must be done.
+to know what needs to be done.
 
 Fork the repository and open Pull Requests with your modification. You can also
 ask to join the Organization.
@@ -18,9 +15,12 @@ ask to join the Organization.
 ### Dependencies
 
 - Docker and Docker Compose
-- rsync (for deploying)
+- Ruby 3.2+ (if running locally)
+- Jekyll 4.3+ (if running locally)
 
-### Usage
+### Running with Docker
+
+The easiest way to run the website locally is with Docker:
 
 ```bash
 git clone https://github.com/valetechtalks/valetechtalks.github.io.git
@@ -28,15 +28,38 @@ cd valetechtalks.github.io
 docker compose up
 ```
 
-Then visit `http://localhost:9778` in your browser.
+Then visit `http://localhost:4000` in your browser.
+
+### Running locally
+
+If you prefer to run Jekyll locally:
+
+```bash
+git clone https://github.com/valetechtalks/valetechtalks.github.io.git
+cd valetechtalks.github.io
+bundle install
+bundle exec jekyll serve --livereload
+```
+
+Then visit `http://localhost:4000` in your browser.
+
+### Content Structure
+
+The website content is stored in YAML data files:
+
+- `_data/schedule.yml` - Event schedule and speakers
+- `_data/sponsors.yml` - Event sponsors
+- `_data/partners.yml` - Event partners
+- `_data/about.yml` - About section content
+- `_data/contact.yml` - Contact information
+- `_data/location.yml` - Event location details
 
 ### Deploy
 
+GitHub Pages will automatically build and deploy the site when changes are pushed to the `master` branch.
+
 ```bash
-docker compose run -rm web yarn generate
 git checkout master
-rsync -r out/ .
-git add --all
-git commit -m 'Update page'
+git merge develop
 git push origin master
 ```
