@@ -98,7 +98,7 @@ docpadConfig =
       presentation:
         title: 'Dos Perceptrons à IA Multimodal: Como avanços científicos estão moldando o futuro',
         description: 'Como os principais avanços da IA impulsionaram o progresso da inteligência artificial. Um papo sobre as inovações que estão por trás de produtos reais, como assistentes inteligentes, ferramentas criativas e sistemas que combinam texto, imagem e muito mais',
-        date: '2025-04-12',
+        # date: '2025-04-12',
         time: '09:15'
     ,
       name: 'Rodrigo Boniatti',
@@ -112,7 +112,7 @@ docpadConfig =
       presentation:
         title: 'Desafios da Web Moderna e os caminhos que nos trouxeram até aqui',
         description: 'Atualmente, criar aplicações web ficou mais fácil e prático, mas, ao mesmo tempo, foi tomado por uma crescente complexidade de ferramentas e requisitos. Com a evolução dos dispositivos e o aumento das expectativas dos usuários, tornou-se crucial que as páginas ofereçam rapidez, acessibilidade e responsividade. Nesta apresentação, vou explorar como cada ferramenta surgiu para resolver desafios específicos e os novos problemas que elas introduziram no processo.',
-        date: '2025-04-12',
+        # date: '2025-04-12',
         time: '10:05'
 
     ,
@@ -123,7 +123,7 @@ docpadConfig =
       presentation:
         title: 'Roda de Conversa sobre trabalho no exterior',
         description: '',
-        date: '2025-04-12',
+        # date: '2025-04-12',
         time: '10:55'
 
     ,
@@ -137,7 +137,7 @@ docpadConfig =
       presentation:
         title: 'Roda de Conversa sobre trabalho no exterior',
         description: '',
-        date: '2025-04-12',
+        # date: '2025-04-12',
         time: '10:55'
 
     #,
