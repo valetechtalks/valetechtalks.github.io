@@ -5,3 +5,8 @@ Vale Tech Talks está retomando as atividades! Queremos reunir a comunidade da c
 Nossa iniciativa é formada por profissionais independentes de TI do Vale dos Sinos para realizar Meetups e outros eventos para promover a troca de conhecimento e Networking entre quaisquer envolvidos ou interessados em tecnologia.
 
 Nossos encontros incluem palestras diversas de assuntos como Linguagens de Programação, Frameworks, Carreira, novas tecnologias, etc.
+
+
+Junte-se a nós em nosso grupo e confirme sua presença dia 12 de abril: [meetup.com/valetechtalks]
+
+[meetup.com/valetechtalks]: https://www.meetup.com/valetechtalks

@@ -38,16 +38,16 @@ docpadConfig =
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale, Vale dos Sinos, RS, Brazil'
-      address: 'ERS-239, 2755'
+      address: 'RS-239, 2755'
       city: 'Novo Hamburgo'
       state: 'RS'
       complement: 'Salão de Exposições do Prédio Arenito'
 
     # The Call To Action button at the header,
     # If you don't want this, just remove the callToAction property.
-    # callToAction:
-    #   text: 'Confirme sua presença'
-    #   link: 'https://www.meetup.com/valetechtalks/events/268854460/'
+    callToAction:
+      text: 'Confirme sua presença'
+      link: 'https://www.meetup.com/valetechtalks/events/306961928/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -68,8 +68,8 @@ docpadConfig =
       'about'
       # 'upcoming' # use only when other sections are not ready
       'location'
-      # 'speakers'
-      # 'schedule'
+      'speakers'
+      'schedule'
       # 'callforpapers'
       'sponsors'
       'partners'
@@ -90,19 +90,70 @@ docpadConfig =
 
     # The entire schedule
     schedule: [
-      name: '',
-      email: '',
-      photo: '',
-      bio: '',
-      company: '',
-      link:
-        href: '',
-        text: 'Website'
+      name: 'Gabriel da Silva Simões',
+      # email: '',
+      photo: 'themes/yellow-swan/img/gabriel_simoes.jpg',
+      bio: 'Doutor em Ciência da Computação, professor da Universidade Feevale e desenvolvedor de sistemas com foco em aplicações práticas de Inteligência Artificial. Atua na pesquisa e no desenvolvimento de soluções inovadoras que integram IA em diferentes contextos, aliando teoria e prática para transformar tecnologias emergentes em produtos e serviços reais.',
+      company: 'Universidade Feevale',
       presentation:
-        title: '',
+        title: 'Dos Perceptrons à IA Multimodal: Como avanços científicos estão moldando o futuro',
+        description: 'Como os principais avanços da IA impulsionaram o progresso da inteligência artificial. Um papo sobre as inovações que estão por trás de produtos reais, como assistentes inteligentes, ferramentas criativas e sistemas que combinam texto, imagem e muito mais',
+        date: '2025-04-12',
+        time: '09:15'
+    ,
+      name: 'Rodrigo Boniatti',
+      # email: '',
+      photo: 'themes/yellow-swan/img/rodrigo_boniatti.jpg',
+      bio: 'Formado em Sistemas para Internet, pela Universidade Feevale, Rodrigo trabalha com tecnologia há mais de uma década. Hoje atua como VP de Engenharia na Vanta, startup americana que fornece soluções de esports para escolas e organizações.',
+      company: 'Vanta',
+      link:
+        href: 'https://www.linkedin.com/in/rodrigoboniatti',
+        text: 'LinkedIn'
+      presentation:
+        title: 'Desafios da Web Moderna e os caminhos que nos trouxeram até aqui',
+        description: 'Atualmente, criar aplicações web ficou mais fácil e prático, mas, ao mesmo tempo, foi tomado por uma crescente complexidade de ferramentas e requisitos. Com a evolução dos dispositivos e o aumento das expectativas dos usuários, tornou-se crucial que as páginas ofereçam rapidez, acessibilidade e responsividade. Nesta apresentação, vou explorar como cada ferramenta surgiu para resolver desafios específicos e os novos problemas que elas introduziram no processo.',
+        date: '2025-04-12',
+        time: '10:05'
+
+    ,
+      name: 'Luiz Eduardo Gallas',
+      photo: 'themes/yellow-swan/img/luiz_gallas.jpg',
+      bio: 'Luiz Eduardo Gallas é bacharel em Ciência da Computação pela Universidade Feevale e desenvolvedor Front-end Web e Mobile com seis anos de experiência, incluindo três no exterior. Atualmente, atua no desenvolvimento web na GoDaddy, uma provedora global de domínios e serviços de hospedagem com sede nos EUA.',
+      company: 'GoDaddy',
+      presentation:
+        title: 'Roda de Conversa sobre trabalho no exterior',
         description: '',
-        date: '',
-        time: ''
+        date: '2025-04-12',
+        time: '10:55'
+
+    ,
+      name: 'Matias Henrique Leidemer',
+      photo: 'themes/yellow-swan/img/matias_leidemer.png',
+      bio: 'Matias Leidemer é engenheiro de software formado pela Unisinos, com 20 anos de experiência. Destes 20 anos, 10 foram trabalhando para empresas do exterior, desempenhando diferentes papéis. Atualmente trabalha como Sr. Fullstack Engineer na Tropic, uma empresa americana que atua na área de "procurement".',
+      link:
+        href: 'https://matiasleidemer.dev',
+        text: 'Website'
+      company: 'Tropic',
+      presentation:
+        title: 'Roda de Conversa sobre trabalho no exterior',
+        description: '',
+        date: '2025-04-12',
+        time: '10:55'
+
+    #,
+    #   name: '',
+    #   email: '',
+    #   photo: '',
+    #   bio: '',
+    #   company: '',
+    #   link:
+    #     href: '',
+    #     text: 'Website'
+    #   presentation:
+    #     title: '',
+    #     description: '',
+    #     date: '',
+    #     time: ''
     ]
 
     # Call for Papers info
@@ -111,16 +162,20 @@ docpadConfig =
 
     # List of Sponsors
     sponsors: [
-      # name: 'Seja um patrocinador'
-      # logo: 'themes/yellow-swan/img/seja-um-patrocinador.jpg'
+      name: 'Codeminer 42'
+      logo: 'themes/yellow-swan/img/codeminer42.jpg'
+      url: 'https://www.codeminer42.com'
+    ,
+      name: 'Universidade Feevale'
+      logo: 'themes/yellow-swan/img/feevale.jpg'
+      url: 'https://www.feevale.br'
+    # ,
+    #   name: ''
+    #   logo: ''
     ]
 
     # List of Partners
     partners: [
-      name: 'Universidade Feevale'
-      logo: 'themes/yellow-swan/img/feevale.jpg'
-      url: 'https://www.feevale.br'
-    ,
       name: 'Diretório Acadêmico da Computação'
       logo: 'themes/yellow-swan/img/dac-feevale.jpg'
       url: 'https://www.facebook.com/feevaledac/'
