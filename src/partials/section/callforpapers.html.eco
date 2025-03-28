@@ -16,5 +16,5 @@
 </p>
 
 <p>
-  Quer palestrar no Vale dos Desenvolvedores? <a href="<%= @callforpapers.url %>">Envie sua proposta</a>.
+  Quer palestrar no Vale Tech Talks? <a href="<%= @callforpapers.url %>">Envie sua proposta</a>.
 </p>

@@ -37,7 +37,7 @@ docpadConfig =
       date: '12 de Abril de 2025'
       # If your event is free, just comment this line
       # price: '$100',
-      venue: 'Universidade Feevale, Vale dos Sinos, RS, Brazil'
+      venue: 'Universidade Feevale, Vale do Sinos, RS, Brazil'
       address: 'RS-239, 2755'
       city: 'Novo Hamburgo'
       state: 'RS'

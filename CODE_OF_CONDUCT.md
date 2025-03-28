@@ -5,28 +5,28 @@ layout: default
 ## Código de Conduta
 
 Todos os participantes, palestrantes, patrocinadores e voluntários da
-conferência precisam concordar com este código de conduta.  
+conferência precisam concordar com este código de conduta.
 
 Os organizadores/responsáveis vão reforçar que este código seja seguido durante
-eventos e em projetos de código aberto.  
+eventos e em projetos de código aberto.
 
 Esperamos a cooperação de todos os participantes para ajudar a garantir um
-ambiente seguro para todos.  
+ambiente seguro para todos.
 
 ### Versão Rápida (TL;DR)
 
-O Vale dos Desenvolvedores e todas as conferências filiadas são dedicadas a
+O Vale Tech Talks e todas as conferências filiadas são dedicadas a
 fornecer uma experiência de conferência livre de assédio para todos,
 independentemente do sexo, identidade de gênero e expressão, idade, orientação
 sexual, deficiência, aparência física, tamanho corporal, cor de pele, etnia,
-religião (ou falta dela) ou escolhas de tecnologias.  
+religião (ou falta dela) ou escolhas de tecnologias.
 
 Nós não toleramos o assédio aos participantes de eventos e membros da comunidade
-sob qualquer forma.  
+sob qualquer forma.
 
 Linguagem e imagens sexuais não são apropriadas em nenhum local dos eventos
 realizados, incluindo palestras, workshops, festas, Twitter e outras mídias
-on-line.  
+on-line.
 
 Os participantes que violarem estas regras poderão ser punidos ou expulsos dos
 eventos sem restituição, a critério dos organizadores da conferência.  
@@ -45,7 +45,7 @@ ou outros eventos, contato físico inadequado e atenção sexual indesejada.
 Os participantes que receberem uma solicitação para interromper qualquer
 comportamento de assédio devem fazê-lo imediatamente.
 
-Os patrocinadores também estão sujeitos às políticas antiassédio.  
+Os patrocinadores também estão sujeitos às políticas antiassédio.
 
 Particularmente, os patrocinadores não devem usar imagens, atividades ou outro
 material de cunho sexual. As equipes de estandes e tendas (incluindo
