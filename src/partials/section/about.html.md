@@ -6,6 +6,6 @@ Nossa iniciativa é formada por profissionais independentes de TI do Vale do Sin
 
 Nossos encontros incluem palestras diversas de assuntos como Linguagens de Programação, Frameworks, Carreira, novas tecnologias, etc.
 
-Junte-se a nós em nosso grupo e confirme sua presença dia 12 de abril: [meetup.com/valetechtalks]
+O evento é totalmente gratuito! Junte-se a nós em nosso grupo e confirme sua presença dia 12 de abril: [meetup.com/valetechtalks]
 
 [meetup.com/valetechtalks]: https://www.meetup.com/valetechtalks
