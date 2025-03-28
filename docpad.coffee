@@ -51,8 +51,8 @@ docpadConfig =
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
-    forkButton:
-      repository: 'https://github.com/valetechtalks/valetechtalks.github.io'
+    # forkButton:
+    #   repository: 'https://github.com/valetechtalks/valetechtalks.github.io'
 
     # Site info
     site:
