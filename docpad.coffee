@@ -90,6 +90,10 @@ docpadConfig =
 
     # The entire schedule
     schedule: [
+      name: 'Recepção e café ☕',
+      time: '09:00'
+    ,
+
       name: 'Gabriel da Silva Simões',
       # email: '',
       photo: 'themes/yellow-swan/img/gabriel_simoes.jpg',
@@ -101,6 +105,7 @@ docpadConfig =
         # date: '2025-04-12',
         time: '09:15'
     ,
+
       name: 'Rodrigo Boniatti',
       # email: '',
       photo: 'themes/yellow-swan/img/rodrigo_boniatti.jpg',
