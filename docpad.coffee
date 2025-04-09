@@ -133,7 +133,7 @@ docpadConfig =
 
     ,
       name: 'Matias Henrique Leidemer',
-      photo: 'themes/yellow-swan/img/matias_leidemer.png',
+      photo: 'themes/yellow-swan/img/matias_leidemer.jpg',
       bio: 'Matias Leidemer é engenheiro de software formado pela Unisinos, com 20 anos de experiência. Destes 20 anos, 10 foram trabalhando para empresas do exterior, desempenhando diferentes papéis. Atualmente trabalha como Sr. Fullstack Engineer na Tropic, uma empresa americana que atua na área de "procurement".',
       link:
         href: 'https://matiasleidemer.dev',
