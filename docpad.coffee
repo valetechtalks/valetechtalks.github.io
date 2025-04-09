@@ -90,6 +90,10 @@ docpadConfig =
 
     # The entire schedule
     schedule: [
+      name: 'Recepção e café ☕',
+      time: '09:00'
+    ,
+
       name: 'Gabriel da Silva Simões',
       # email: '',
       photo: 'themes/yellow-swan/img/gabriel_simoes.jpg',
@@ -101,6 +105,7 @@ docpadConfig =
         # date: '2025-04-12',
         time: '09:15'
     ,
+
       name: 'Rodrigo Boniatti',
       # email: '',
       photo: 'themes/yellow-swan/img/rodrigo_boniatti.jpg',
@@ -128,7 +133,7 @@ docpadConfig =
 
     ,
       name: 'Matias Henrique Leidemer',
-      photo: 'themes/yellow-swan/img/matias_leidemer.png',
+      photo: 'themes/yellow-swan/img/matias_leidemer.jpg',
       bio: 'Matias Leidemer é engenheiro de software formado pela Unisinos, com 20 anos de experiência. Destes 20 anos, 10 foram trabalhando para empresas do exterior, desempenhando diferentes papéis. Atualmente trabalha como Sr. Fullstack Engineer na Tropic, uma empresa americana que atua na área de "procurement".',
       link:
         href: 'https://matiasleidemer.dev',
