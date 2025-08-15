@@ -34,7 +34,7 @@ docpadConfig =
     conf:
       name: 'Vale Tech Talks'
       description: 'Meetup de Profissionais e Estudantes de TI do Vale do Rio dos Sinos'
-      date: '12 de Abril de 2025'
+      date: '30 de agosto de 2025'
       # If your event is free, just comment this line
       # price: '$100',
       venue: 'Universidade Feevale, Vale do Sinos, RS, Brazil'
@@ -47,7 +47,7 @@ docpadConfig =
     # If you don't want this, just remove the callToAction property.
     callToAction:
       text: 'Confirme sua presença'
-      link: 'https://www.meetup.com/valetechtalks/events/306961928/'
+      link: 'https://www.meetup.com/valetechtalks/events/310538875/'
 
     # 'Fork me on GitHub', if you don't want this,
     # just remove the forkButton property
@@ -94,53 +94,68 @@ docpadConfig =
       time: '09:00'
     ,
 
-      name: 'Gabriel da Silva Simões',
+      name: 'Vinícius Almeida',
       # email: '',
-      photo: 'themes/yellow-swan/img/gabriel_simoes.jpg',
-      bio: 'Doutor em Ciência da Computação, professor da Universidade Feevale e desenvolvedor de sistemas com foco em aplicações práticas de Inteligência Artificial. Atua na pesquisa e no desenvolvimento de soluções inovadoras que integram IA em diferentes contextos, aliando teoria e prática para transformar tecnologias emergentes em produtos e serviços reais.',
-      company: 'Universidade Feevale',
+      photo: 'themes/yellow-swan/img/vinicius_almeida.jpeg',
+      bio: 'Engenheiro de software com 15+ anos de atuação em desenvolvimento de sistemas em empresas de vários tamanhos, hoje focado na indústria de serviços financeiros.',
+      company: 'Staff software engineer',
+      link:
+        href: 'https://www.linkedin.com/in/vin%C3%ADcius-almeida-42591523/',
+        text: 'LinkedIn'
       presentation:
-        title: 'Dos Perceptrons à IA Multimodal: Como avanços científicos estão moldando o futuro',
-        description: 'Como os principais avanços da IA impulsionaram o progresso da inteligência artificial. Um papo sobre as inovações que estão por trás de produtos reais, como assistentes inteligentes, ferramentas criativas e sistemas que combinam texto, imagem e muito mais',
-        # date: '2025-04-12',
+        title: 'Event sourcing',
+        description: '',
         time: '09:15'
     ,
 
-      name: 'Rodrigo Boniatti',
+      name: 'Lucas Riboli',
       # email: '',
-      photo: 'themes/yellow-swan/img/rodrigo_boniatti.jpg',
-      bio: 'Formado em Sistemas para Internet, pela Universidade Feevale, Rodrigo trabalha com tecnologia há mais de uma década. Hoje atua como VP de Engenharia na Vanta, startup americana que fornece soluções de esports para escolas e organizações.',
-      company: 'Vanta',
+      photo: 'themes/yellow-swan/img/lucas_riboli.png',
+      bio: 'Lucas Riboli é desenvolvedor de software especializado em backend e infraestrutura em nuvem. Atua na criação de sistemas escaláveis combinando habilidades em ambientes distribuídos.',
+      company: 'Banco BV',
       link:
-        href: 'https://www.linkedin.com/in/rodrigoboniatti',
+        href: 'https://www.linkedin.com/in/lucas-riboli/',
         text: 'LinkedIn'
       presentation:
-        title: 'Desafios da Web Moderna e os caminhos que nos trouxeram até aqui',
-        description: 'Atualmente, criar aplicações web ficou mais fácil e prático, mas, ao mesmo tempo, foi tomado por uma crescente complexidade de ferramentas e requisitos. Com a evolução dos dispositivos e o aumento das expectativas dos usuários, tornou-se crucial que as páginas ofereçam rapidez, acessibilidade e responsividade. Nesta apresentação, vou explorar como cada ferramenta surgiu para resolver desafios específicos e os novos problemas que elas introduziram no processo.',
+        title: 'Operadores: do Kubernetes para qualquer infraestrutura',
+        description: 'O pattern Operator não é totalmente exclusividade do Kubernetes. Vamos ver um operator usando Linux primitivos, demonstrando que esse conceito de IaC reativa funciona em qualquer infraestrutura, além de entender como operators funcionam no K8s.',
         # date: '2025-04-12',
         time: '10:05'
 
     ,
-      name: 'Luiz Eduardo Gallas',
-      photo: 'themes/yellow-swan/img/luiz_gallas.jpg',
-      bio: 'Luiz Eduardo Gallas é bacharel em Ciência da Computação pela Universidade Feevale e desenvolvedor Front-end Web e Mobile com seis anos de experiência, incluindo três no exterior. Atualmente, atua no desenvolvimento web na GoDaddy, uma provedora global de domínios e serviços de hospedagem com sede nos EUA.',
-      company: 'GoDaddy',
+      name: 'Tjeimi Kiewel',
+      photo: 'themes/yellow-swan/img/tjeimi_kiewel.jpeg',
+      bio: 'Tjeimi Kiewel é Analista de Sistemas na Agilework Informática, empresa especializada em tecnologias para gestão em medicina e saúde ocupacional. Com formação em Biologia e Análise e Desenvolvimento de Sistemas pela Universidade Feevale, atua na interseção entre tecnologia e experiência do usuário. É mestre em Qualidade Ambiental pela mesma instituição e está se especializando em UX Design pela PUCRS. Atualmente desenvolve projeto de doutorado em Antropologia Digital, com foco em algoritmos, UX e inclusão.',
+      company: 'Agilework Informática',
       presentation:
-        title: 'Roda de Conversa sobre trabalho no exterior',
+        title: 'Roda de Conversa sobre Transição de Carreira',
         description: '',
         # date: '2025-04-12',
         time: '10:55'
 
     ,
-      name: 'Matias Henrique Leidemer',
-      photo: 'themes/yellow-swan/img/matias_leidemer.jpg',
-      bio: 'Matias Leidemer é engenheiro de software formado pela Unisinos, com 20 anos de experiência. Destes 20 anos, 10 foram trabalhando para empresas do exterior, desempenhando diferentes papéis. Atualmente trabalha como Sr. Fullstack Engineer na Tropic, uma empresa americana que atua na área de "procurement".',
+      name: 'Matheus Martini',
+      photo: 'themes/yellow-swan/img/matheus_martini.jpeg',
+      bio: 'Engenheiro de Software Sênior especializado em soluções financeiras móveis e integrações com POS, com histórico de impacto em aplicações de grande escala para bancos, restaurantes e grandes eventos de tecnologia. Engenheiro Civil / Analista de Desenvolvimento de Sistemas / Mestre em Processos Industriais / Doutorando em Qualidade Ambiental com tese em Inteligência Artificial.',
       link:
-        href: 'https://matiasleidemer.dev',
-        text: 'Website'
-      company: 'Tropic',
+        href: 'https://www.linkedin.com/in/martinimatheus/',
+        text: 'LinkedIn'
       presentation:
-        title: 'Roda de Conversa sobre trabalho no exterior',
+        title: 'Roda de Conversa sobre Transição de Carreira',
+        description: '',
+        # date: '2025-04-12',
+        time: '10:55'
+
+    ,
+      name: 'Jade Oliveira',
+      photo: 'themes/yellow-swan/img/jade_oliveira.jpeg',
+      bio: 'Desenvolvedora mobile formada pela Unisinos em Análise e Desenvolvimento de Sistemas e pela UFRGS em Ciências Contábeis, com 4 anos de experiência na área de TI e 9 anos de experiência na área Contábil. Atualmente trabalha como Desenvolvedora Mobile Pleno na ClickBus, empresa brasileira especializada na venda online de passagens de ônibus.',
+      company: 'ClickBus',
+      link:
+        href: 'https://www.linkedin.com/in/jade-g-oliveira/',
+        text: 'LinkedIn'
+      presentation:
+        title: 'Roda de Conversa sobre Transição de Carreira',
         description: '',
         # date: '2025-04-12',
         time: '10:55'
@@ -167,10 +182,6 @@ docpadConfig =
 
     # List of Sponsors
     sponsors: [
-      name: 'Codeminer 42'
-      logo: 'themes/yellow-swan/img/codeminer42.jpg'
-      url: 'https://www.codeminer42.com'
-    ,
       name: 'Universidade Feevale'
       logo: 'themes/yellow-swan/img/feevale.jpg'
       url: 'https://www.feevale.br'
