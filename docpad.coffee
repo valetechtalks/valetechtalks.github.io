@@ -103,8 +103,8 @@ docpadConfig =
         href: 'https://www.linkedin.com/in/vin%C3%ADcius-almeida-42591523/',
         text: 'LinkedIn'
       presentation:
-        title: 'Event sourcing',
-        description: '',
+        title: 'Event sourcing (conceitualmente comprimido)',
+        description: 'Uma introdução enxuta e descomplicada ao Event Sourcing, reduzido aos seus conceitos essenciais para mostrar como algo complexo pode ser simples e poderoso ao mesmo tempo.',
         time: '09:15'
     ,
 
