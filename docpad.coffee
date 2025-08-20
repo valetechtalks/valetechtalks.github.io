@@ -136,7 +136,7 @@ docpadConfig =
     ,
       name: 'Matheus Martini',
       photo: 'themes/yellow-swan/img/matheus_martini.jpeg',
-      bio: 'Engenheiro de Software Sênior especializado em soluções financeiras móveis e integrações com POS, com histórico de impacto em aplicações de grande escala para bancos, restaurantes e grandes eventos de tecnologia. Engenheiro Civil / Analista de Desenvolvimento de Sistemas / Mestre em Processos Industriais / Doutorando em Qualidade Ambiental com tese em Inteligência Artificial.',
+      bio: 'Engenheiro de Software Senior, doutorando em qualidade ambiental com tese em Inteligência Artificial, Mestre em Tecnologia de Materiais e Processos Industriais, Analista de Desenvolvimento de Sistemas e Engenheiro Civil.',
       link:
         href: 'https://www.linkedin.com/in/martinimatheus/',
         text: 'LinkedIn'
